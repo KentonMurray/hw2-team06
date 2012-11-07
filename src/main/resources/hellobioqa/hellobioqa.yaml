@@ -1,6 +1,6 @@
 configuration: 
   name: hellobioqa
-  author: oaqa
+  author: team06
   
 persistence-provider:
   inherit: helloqa.db.local-persistence-provider
@@ -14,17 +14,18 @@ pipeline:
   - inherit: jdbc.sqlite.cse.phase  
     name: keyterm-extractor
     options: |
+      - inherit: hellobioqa.team06.keyterm.Vgang-Keyterm-Extractor
       - inherit: helloqa.keyterm.simple
 
   - inherit: jdbc.sqlite.cse.phase 
     name: retrieval-strategist
     options: |
-      - inherit: hellobioqa.retrieval.simple-solr-strategist
+      - inherit: hellobioqa.team06.retrieval.simple-solr-strategist
           
   - inherit: jdbc.sqlite.cse.phase  
     name: passage-extractor
     options: |
-      - inherit: hellobioqa.passage.simple
+      - inherit: hellobioqa.team06.passage.simple
       
   - inherit: helloqa.eval.keyterm-aggregator-consumer
 
