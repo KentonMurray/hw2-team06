@@ -18,6 +18,7 @@ pipeline:
       - inherit: hellobioqa.team06.keyterm.KeyTermFilter
       - inherit: hellobioqa.team06.keyterm.Vgang-Keyterm-Extractor
       - inherit: helloqa.keyterm.simple
+      - inherit: hellobioqa.team06.keyterm.Shu_Hao_KeyExtractor
 
   - inherit: jdbc.sqlite.cse.phase 
     name: retrieval-strategist
