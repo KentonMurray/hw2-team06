@@ -1,4 +1,3 @@
 class: edu.cmu.lti.oaqa.openqa.test.team06.keyterm.VgangKeytermExtractor
-
 persistence-provider: |
   inherit: ecd.default-log-persistence-provider
