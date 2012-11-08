@@ -38,15 +38,8 @@ public class ShuLingPipeTermExtractor extends AbstractKeytermExtractor{
     for(int j = 0 ; j < Chunkarray.length; j++){
       String str;
       str = question.substring(Chunkarray[j].start(),Chunkarray[j].end());
-      //System.out.println(str);
       KeyList.add(new Keyterm(str));
     }
     return KeyList;
-  }
-  public static void main(String args[]){
-   //ShuLingPipeTermExtractor SLP = new ShuLingPipeTermExtractor();
-   
-    //SLP.getKeyterms("");
-    //SLP.getKeyterms("QUERY: disease s Alzheimer affect gene Presenilin-1 the in mutations do How QUERY: gene Presenilin-1 disease s Alzheimer affect gene Presenilin-1 the in mutations do How");
   }
 }
