@@ -21,6 +21,7 @@ public class SimpleBioPassageExtractor extends SimplePassageExtractor {
   @Override
   protected List<PassageCandidate> extractPassages(String question, List<Keyterm> keyterms,
           List<RetrievalResult> documents) {
+    
     List<PassageCandidate> result = new ArrayList<PassageCandidate>();
     for (RetrievalResult document : documents) {
       System.out.println("RetrievalResult: " + document.toString());
