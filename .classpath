@@ -27,5 +27,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/bsh.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/dragontool.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/heptag.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/jwnl-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/medpost.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/openjgraph.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER/libs/secondstring.jar"/>
+	<classpathentry kind="lib" path="/home/shuhaoyu/workspace/BANNER.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

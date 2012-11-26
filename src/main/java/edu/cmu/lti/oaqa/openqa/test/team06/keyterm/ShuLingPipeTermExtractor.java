@@ -38,6 +38,7 @@ public class ShuLingPipeTermExtractor extends AbstractKeytermExtractor{
     for(int j = 0 ; j < Chunkarray.length; j++){
       String str;
       str = question.substring(Chunkarray[j].start(),Chunkarray[j].end());
+      System.out.println("Extract::::"+str);
       KeyList.add(new Keyterm(str));
     }
     return KeyList;
