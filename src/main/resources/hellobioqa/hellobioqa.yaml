@@ -8,8 +8,8 @@ persistence-provider:
 collection-reader:
   inherit: hellobioqa.collection.decorated-collection-reader
   dataset: TRECGEN06
-  #file: /input/oneQ.txt
-  file: /input/trecgen06.txt
+  file: /input/oneQ.txt
+  #file: /input/trecgen06.txt
 
 pipeline:
   - inherit: jdbc.sqlite.cse.phase  
