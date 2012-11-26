@@ -1,4 +1,4 @@
-package edu.cmu.lti.oaqa.openqa.hellobioqa.retrieval;
+package edu.cmu.lti.oaqa.openqa.test.team06.retrieval;
 
 import java.util.ArrayList;
 import java.util.List;
