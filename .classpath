@@ -27,15 +27,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/bsh.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/dragontool.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/heptag.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/jdom-1.0.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/junit-4.4.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/jwnl-1.3.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/medpost.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/openjgraph.jar"/>
-	<classpathentry kind="lib" path="/home/shuhaoyu/NewWorkspace/BANNER/libs/secondstring.jar"/>
+	<classpathentry kind="lib" path="BANNER.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/bsh.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/dragontool.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/heptag.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/jwnl-1.3.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/medpost.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/openjgraph.jar"/>
+	<classpathentry kind="lib" path="BANNER/libs/secondstring.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
