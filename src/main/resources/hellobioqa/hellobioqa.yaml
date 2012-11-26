@@ -8,6 +8,7 @@ persistence-provider:
 collection-reader:
   inherit: hellobioqa.collection.decorated-collection-reader
   dataset: TRECGEN06
+  #file: /input/oneQ.txt
   file: /input/trecgen06.txt
 
 pipeline:
@@ -16,7 +17,13 @@ pipeline:
     options: |
       #- inherit: hellobioqa.team06.keyterm.KeyTermParser
       #- inherit: hellobioqa.team06.keyterm.KeyTermFilter #Check and see if Varuni's performs better than LingPipe
-      - inherit: hellobioqa.team06.keyterm.Vgang-Keyterm-Extractor
+      #- inherit: helloqa.keyterm.simple
+      #- inherit: hellobioqa.team06.keyterm.KentonKeytermExtractor
+      #- inherit: hellobioqa.team06.keyterm.KeyTermParser
+      #- inherit: hellobioqa.team06.keyterm.KeyTermFilter
+      #- inherit: hellobioqa.team06.keyterm.ShuBannerExtractor
+      #- inherit: hellobioqa.team06.keyterm.Shu_Hao_KeyExtractor
+      - inherit: hellobioqa.team06.keyterm.vgangkeytermExtractor
       - inherit: helloqa.keyterm.simple
 
   - inherit: jdbc.sqlite.cse.phase 
