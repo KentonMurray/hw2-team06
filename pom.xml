@@ -74,12 +74,12 @@
 			<groupId>edu.washington.cs.knowitall.stanford-corenlp</groupId>
 			<artifactId>stanford-postag-models</artifactId>
 			<version>1.3.2</version>
-		</dependency>
+		</dependency>	
 		<dependency>
 			<groupId>BANNER</groupId>
 			<artifactId>banner</artifactId>
-			<version>v0.2</version>
-		</dependency>		
+			<version>v0.2.1.6</version>
+		</dependency>			
 		<dependency>
 			<groupId>BANNER</groupId>
 			<artifactId>bsh</artifactId>
