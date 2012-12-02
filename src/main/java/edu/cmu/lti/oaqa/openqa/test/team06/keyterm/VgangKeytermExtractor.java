@@ -26,7 +26,6 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
 
   @Override
   protected List<Keyterm> getKeyterms(String SentenceText) {
-
     String lines[] = SentenceText.split("\\r?\\n");
     System.out.println("Starting Annotation of text");
     List<Keyterm> keyterms = new ArrayList<Keyterm>();
@@ -74,7 +73,6 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
       }
 
       try {
-        System.out.println("Implementing Stanford CoreNLP pos tag entity recognizer and Gene dataBank name directory");
         nounRecognizer = new PosTagNamedEntityRecognizer();
         for (int i = 0; i < lines.length; i++) {
           String[] token = lines[i].split(" "); // Splitting the sentence into token.
