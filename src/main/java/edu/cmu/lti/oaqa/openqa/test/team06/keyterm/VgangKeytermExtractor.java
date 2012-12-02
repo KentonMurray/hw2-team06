@@ -98,9 +98,9 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
       // TODO Auto-generated catch block
       e.printStackTrace();
     }
-   // System.out.println(keyterms);
-     return keyterms;
-   // return null;
+    System.out.println(keyterms);
+   //  return keyterms;
+    return null;
   }
 
   public static String Unzip(String inFilePath) throws Exception {
@@ -117,9 +117,9 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
     return outFilePath;
   }
 
- // public static void main(String[] args) {
-   // VgangKeytermExtractor vg = new VgangKeytermExtractor();
-   // vg.getKeyterms("P00221725A0523 The decline in the activity of cytochrome oxidase, peroxidase and in the lipid peroxidase content of peripheral neutrophils was followed by a decrease in the phagocytic activity.");
- // }
+ public static void main(String[] args) {
+  VgangKeytermExtractor vg = new VgangKeytermExtractor();
+  vg.getKeyterms("160|What is the role of PrnP in mad cow disease?");
+  }
 
 }
