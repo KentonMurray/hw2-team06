@@ -1,5 +1,9 @@
 package edu.cmu.lti.oaqa.openqa.test.team06.keyterm;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -42,11 +46,24 @@ public class ShuNLPVerbTermUpdater extends AbstractKeytermUpdater {
 					System.out.println("VB::::::" + pos + " " + token.originalText());
 					candidate.add(token);
 					Keyterm Vterm = new Keyterm(token.originalText());
-					Vterm.setProbablity((float)0.2);
+					Vterm.setProbablity((float)0.2);                                           
 					keyterms.add(Vterm);
 				}
 			}
 		}
+		    FileWriter fstream = null;
+		try {
+			fstream = new FileWriter("LastUpdater.txt",true);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    BufferedWriter out = new BufferedWriter(fstream);
+	    PrintWriter pw = new PrintWriter(out,false);
+	    pw.println(keyterms);
+	    pw.close();
+	
+		
 		return keyterms;
 	}
 }

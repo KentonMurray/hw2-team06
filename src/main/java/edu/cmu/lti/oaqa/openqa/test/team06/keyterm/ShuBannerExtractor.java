@@ -1,10 +1,13 @@
 package edu.cmu.lti.oaqa.openqa.test.team06.keyterm;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -88,6 +91,19 @@ public class ShuBannerExtractor extends AbstractKeytermExtractor{
     finally{
       
     }
+    
+    FileWriter fstream = null;
+	try {
+		fstream = new FileWriter("BANNER.txt",true);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+    BufferedWriter out = new BufferedWriter(fstream);
+    PrintWriter pw = new PrintWriter(out,false);
+    pw.println(KeyList);
+    pw.close();    
+    
     return KeyList;
     
   }
