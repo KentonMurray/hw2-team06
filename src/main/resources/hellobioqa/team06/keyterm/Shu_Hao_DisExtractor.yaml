@@ -1,0 +1,3 @@
+class: edu.cmu.lti.oaqa.openqa.test.team06.keyterm.ShuLingPipeDisExtractor
+persistence-provider: |
+ inherit: ecd.default-log-persistence-provider
