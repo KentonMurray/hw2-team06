@@ -96,9 +96,9 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
       // TODO Auto-generated catch block
       e.printStackTrace();
     }
-    System.out.println(keyterms);
-   //  return keyterms;
-    return null;
+  //  System.out.println(keyterms);
+     return keyterms;
+   // return null;
   }
 
   public static String Unzip(String inFilePath) throws Exception {
@@ -115,9 +115,9 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
     return outFilePath;
   }
 
- public static void main(String[] args) {
-  VgangKeytermExtractor vg = new VgangKeytermExtractor();
-  vg.getKeyterms("160|What is the role of PrnP in mad cow disease?");
-  }
+// public static void main(String[] args) {
+//  VgangKeytermExtractor vg = new VgangKeytermExtractor();
+//  vg.getKeyterms("160|What is the role of PrnP in mad cow disease?");
+//  }
 
 }
