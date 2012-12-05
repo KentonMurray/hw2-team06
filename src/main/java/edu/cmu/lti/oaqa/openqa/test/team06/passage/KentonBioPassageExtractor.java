@@ -12,6 +12,7 @@ import com.google.common.collect.Lists;
 import edu.cmu.lti.oaqa.framework.data.Keyterm;
 import edu.cmu.lti.oaqa.framework.data.PassageCandidate;
 import edu.cmu.lti.oaqa.framework.data.RetrievalResult;
+import edu.cmu.lti.oaqa.openqa.hello.passage.KeytermWindowScorerSum;
 import edu.cmu.lti.oaqa.openqa.hello.passage.SimplePassageExtractor;
 
 public class KentonBioPassageExtractor extends SimplePassageExtractor {
@@ -35,7 +36,7 @@ public class KentonBioPassageExtractor extends SimplePassageExtractor {
         System.out.println(text);
 
         KentonPassageCanditateFinder finder = new KentonPassageCanditateFinder(id, text,
-                new KentonKeytermWindowScorerSum());
+                new /*Kenton*/KeytermWindowScorerSum());
         List<String> keytermStrings = Lists.transform(keyterms, new Function<Keyterm, String>() {
           public String apply(Keyterm keyterm) {
             return keyterm.getText();
@@ -45,6 +46,7 @@ public class KentonBioPassageExtractor extends SimplePassageExtractor {
                 .toArray(new String[0]));
         for (PassageCandidate passageSpan : passageSpans)
           result.add(passageSpan);
+          
       } catch (SolrServerException e) {
         e.printStackTrace();
       }
