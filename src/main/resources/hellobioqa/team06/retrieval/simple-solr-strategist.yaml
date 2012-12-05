@@ -1,5 +1,5 @@
 class: edu.cmu.lti.oaqa.openqa.hellobioqa.retrieval.YiwenChenRetrieval
-hit-list-size: 10
+hit-list-size: 50
 server: http://peace.isri.cs.cmu.edu:9080/solr/genomics-simple/
 port: 9080
 
