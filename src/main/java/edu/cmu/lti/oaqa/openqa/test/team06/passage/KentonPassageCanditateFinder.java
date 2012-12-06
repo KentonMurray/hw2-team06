@@ -35,9 +35,9 @@ public class KentonPassageCanditateFinder {
 
   private int totalKeyterms;
 
-  private /*Kenton*/KeytermWindowScorerSum scorer;
+  private KentonKeytermWindowScorerSum scorer;
 
-  public KentonPassageCanditateFinder(String docId, String text, /*Kenton*/KeytermWindowScorerSum scorer) {
+  public KentonPassageCanditateFinder(String docId, String text, KentonKeytermWindowScorerSum scorer) {
     super();
     this.text = text;
     this.docId = docId;
@@ -47,30 +47,35 @@ public class KentonPassageCanditateFinder {
 
   public List<PassageCandidate> extractPassages(String[] keyterms) {
     List<List<PassageSpan>> matchingSpans = new ArrayList<List<PassageSpan>>();
-    List<PassageSpan> matchedSpans = new ArrayList<PassageSpan>();
+    
     String[] sentences = text.split("[.?!]");
     
     List<PassageCandidate> result = new ArrayList<PassageCandidate>();
     int accu = 0;
     int sentinel = 0;
     int sentenceMatches = 0;
+    totalMatches = 0;
+    totalKeyterms = 0;
     for(String sent: sentences){
    // Find all keyterm matches.
       sentinel = 0;
       sentenceMatches = 0;
+      List<PassageSpan> matchedSpans = new ArrayList<PassageSpan>();
       for (String keyterm : keyterms) {
         Pattern p = Pattern.compile(keyterm);
         Matcher m = p.matcher(sent);
         while (m.find()) {
-          if(sentinel == 0){
+          //if(sentinel == 0){
             //PassageSpan match = new PassageSpan(m.start() + accu, m.end() + accu);
             PassageSpan match = new PassageSpan(accu + 1, sent.length() + accu + 1);
-            System.out.println(keyterm + " " + (accu+1) +" "+ (sent.length() + accu + 1));
+            //System.out.println(keyterm + " " + (accu+1) +" "+ (sent.length() + accu + 1));
             matchedSpans.add(match);
-            sentinel = 1;
-          }
+            
+          //  sentinel = 1;
+          //}
           totalMatches++;
           sentenceMatches++;
+          continue;
         }
         if (!matchedSpans.isEmpty()) {
           matchingSpans.add(matchedSpans);
@@ -93,7 +98,7 @@ public class KentonPassageCanditateFinder {
       }
       accu += (sent.length() + 1);
     }
-    
+    System.out.println("TotalMatches:" + totalMatches + "TotalKeyterms" + totalKeyterms);
 //    // Find all keyterm matches.
 //    for (String keyterm : keyterms) {
 //      Pattern p = Pattern.compile(keyterm);
@@ -137,8 +142,9 @@ public class KentonPassageCanditateFinder {
         if (end <= begin)
           continue;
         //System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-        if(hash.get(begin) != end)continue;
-        System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+        //if(hash.get(begin) != end)continue;
+        if(hash.get(begin).intValue() + 1500 < end.intValue())
+        	continue;
         // This code runs for each window.
         int keytermsFound = 0;
         int matchesFound = 0;
