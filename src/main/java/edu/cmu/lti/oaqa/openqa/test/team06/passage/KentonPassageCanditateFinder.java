@@ -65,6 +65,7 @@ public class KentonPassageCanditateFinder {
           if(sentinel == 0){
             //PassageSpan match = new PassageSpan(m.start() + accu, m.end() + accu);
             PassageSpan match = new PassageSpan(accu + 1, sent.length() + accu + 1);
+            System.out.println(keyterm + " " + (accu+1) +" "+ (sent.length() + accu + 1));
             matchedSpans.add(match);
             sentinel = 1;
           }
@@ -117,6 +118,7 @@ public class KentonPassageCanditateFinder {
       for (PassageSpan keytermMatch : keytermMatches) {
         Integer leftEdge = keytermMatch.begin;
         Integer rightEdge = keytermMatch.end;
+        //System.out.println(leftEdge + " " + rightEdge);
         hash.put(leftEdge, rightEdge);
        if (!leftEdges.contains(leftEdge)){
           leftEdges.add(leftEdge);
