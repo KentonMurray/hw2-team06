@@ -29,7 +29,7 @@ public class ShuLingPipeDisExtractor extends AbstractKeytermExtractor{
   @Override
   protected List<Keyterm> getKeyterms(String question) {
     // TODO Auto-generated method stub
-    File modelFile = new File("src/ne-en-bio-genia.TokenShapeChunker");
+    File modelFile = new File("./ne-en-bio-genia.TokenShapeChunker");
     Chunker chunker = null;
     Chunking chunking;
     Chunk[] Chunkarray;
