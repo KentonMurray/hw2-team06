@@ -8,10 +8,10 @@ persistence-provider:
 collection-reader:
   inherit: hellobioqa.collection.decorated-collection-reader
   dataset: TRECGEN06
-  #file: /input/oneQ.txt
+  file: /input/oneQ.txt
   #file: /input/tenQ.txt
   #file: /input/tenQ.txt
-  file: /input/trecgen06.txt
+  #file: /input/trecgen06.txt
 
 pipeline:
   - inherit: jdbc.sqlite.cse.phase  
@@ -28,18 +28,18 @@ pipeline:
       #- inherit: hellobioqa.team06.keyterm.vgangkeytermExtractor
       -  inherit: hellobioqa.team06.keyterm.Shu_Hao_DisExtractor
       #- inherit: helloqa.keyterm.simple
-  - inherit: jdbc.sqlite.cse.phase
-    name: keyterm-updater1
-    options: |
-        - inherit: hellobioqa.team06.keyterm.ShuLingPipeTermUpdater
-  - inherit: jdbc.sqlite.cse.phase
-    name: keyterm-updater2
-    options: |        
-        - inherit: hellobioqa.team06.keyterm.ShuBannerUpdater
-  - inherit: jdbc.sqlite.cse.phase
-    name: keyterm-updater3
-    options: |          
-        - inherit: hellobioqa.team06.keyterm.ShuNLPVerbTermUpdater
+#  - inherit: jdbc.sqlite.cse.phase
+#    name: keyterm-updater1
+#    options: |
+#        - inherit: hellobioqa.team06.keyterm.ShuLingPipeTermUpdater
+#  - inherit: jdbc.sqlite.cse.phase
+#    name: keyterm-updater2
+#    options: |        
+#        - inherit: hellobioqa.team06.keyterm.ShuBannerUpdater
+#  - inherit: jdbc.sqlite.cse.phase
+#    name: keyterm-updater3
+#    options: |          
+#        - inherit: hellobioqa.team06.keyterm.ShuNLPVerbTermUpdater
   - inherit: jdbc.sqlite.cse.phase 
     name: retrieval-strategist
     options: |
