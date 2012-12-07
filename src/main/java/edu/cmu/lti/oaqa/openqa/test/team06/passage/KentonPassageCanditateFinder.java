@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -44,11 +46,44 @@ public class KentonPassageCanditateFinder {
     this.textSize = text.length();
     this.scorer = scorer;
   }
-
+  public int Getdifference(TreeMap<Integer,Integer> lengthMap,int key){
+		int diff = 0;
+		for(Map.Entry<Integer, Integer> entry: lengthMap.entrySet()){
+			if(key < entry.getKey())
+				break;
+			diff = entry.getValue();
+		}
+		return diff;
+	}
+	public String RemoveHTMLtag(String text){
+	  	String striptext = text;
+		String htmldelimit = "<(\"[^\"]*\"|'[^']*'|[^'\">])*>";
+	    Pattern p = Pattern.compile(htmldelimit);
+	    striptext = text.replaceAll(htmldelimit,"");
+	    return striptext;
+	}
+	  public TreeMap<Integer,Integer> MakeLengthMap(String text){
+		  TreeMap<Integer,Integer> lengthMap = new TreeMap<Integer,Integer>();
+		  String htmldelimiter = "<(\"[^\"]*\"|'[^']*'|[^'\">])*>";
+	        Pattern p = Pattern.compile(htmldelimiter);
+	        Matcher m = p.matcher(text);	
+	        int lastend = 0;
+	        int cumulength = 0;
+	        int cumuHTML = 0;
+	        while(m.find()){
+	        	cumulength += m.start() - lastend;
+	        	cumuHTML += (m.end() - m.start());
+	        	lengthMap.put(cumulength, cumuHTML);
+	        	lastend = m.end();
+	        	System.out.println(m.start() +" "+ m.end());
+	        }		  
+	        return lengthMap;
+	  }
+  
   public List<PassageCandidate> extractPassages(String[] keyterms) {
     List<List<PassageSpan>> matchingSpans = new ArrayList<List<PassageSpan>>();
-    
-    String[] sentences = text.split("[.?!]");
+    String striptext = RemoveHTMLtag(text);
+    String[] sentences = striptext.split("[.?!]");
     
     List<PassageCandidate> result = new ArrayList<PassageCandidate>();
     int accu = 0;

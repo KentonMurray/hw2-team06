@@ -8,8 +8,8 @@ persistence-provider:
 collection-reader:
   inherit: hellobioqa.collection.decorated-collection-reader
   dataset: TRECGEN06
-  file: /input/oneQ.txt
-  #file: /input/tenQ.txt
+  #file: /input/oneQ.txt
+  file: /input/tenQ.txt
   #file: /input/tenQ.txt
   #file: /input/trecgen06.txt
 
