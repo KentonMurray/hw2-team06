@@ -80,8 +80,7 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
             Map<Integer, Integer> GeneMap = nounRecognizer.getGeneSpans(token[j]);
             Set<Entry<Integer, Integer>> entrySet = GeneMap.entrySet();
             for (Entry<Integer, Integer> entry : entrySet) {
-               if (list.contains((token[j].substring(entry.getKey(), entry.getValue()))
-                      .toUpperCase())) {
+               if (list.contains(token[j].substring(entry.getKey(), entry.getValue()).toUpperCase())) {
                 keyterms.add(new Keyterm(token[j].substring(entry.getKey(), entry.getValue())));
                }
             }

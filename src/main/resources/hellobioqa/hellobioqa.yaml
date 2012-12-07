@@ -8,10 +8,10 @@ persistence-provider:
 collection-reader:
   inherit: hellobioqa.collection.decorated-collection-reader
   dataset: TRECGEN06
-  #file: /input/oneQ.txt
+  file: /input/oneQ.txt
   #file: /input/tenQ.txt
   #file: /input/tenQ.txt
-  file: /input/trecgen06.txt
+  #file: /input/trecgen06.txt
 
 pipeline:
   - inherit: jdbc.sqlite.cse.phase  
@@ -31,6 +31,10 @@ pipeline:
   #  name: keyterm-updater
   #  options: |
   #     - inherit: hellobioqa.team06.keyterm.ShuNLPVerbTermUpdater
+  - inherit: jdbc.sqlite.cse.phase
+  	name: keyterm-updater
+  	options: |
+  		- inherit: hellobioqa.team06.keyterm.VgangWhatizitUpdater
   - inherit: jdbc.sqlite.cse.phase 
     name: retrieval-strategist
     options: |
