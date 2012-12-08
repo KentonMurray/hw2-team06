@@ -30,7 +30,7 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     super.initialize(aContext);
     try {
-      File f = new File("src/main/resources/data/Banner_genename.txt");
+      File f = new File("./data/Banner_genename.txt");
       output = new BufferedWriter(new FileWriter(f));
       this.hitListSize = (Integer) aContext.getConfigParameterValue("hit-list-size");
     } catch (Exception e) { // all cross-opts are strings?
