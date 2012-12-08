@@ -34,10 +34,10 @@ pipeline:
   #  options: |
   #     - inherit: hellobioqa.team06.keyterm.ShuNLPVerbTermUpdater
   
-  - inherit: jdbc.sqlite.cse.phase
-    name: keyterm-updaterV
-    options: |
-              - inherit: hellobioqa.team06.keyterm.VgangWhatizitUpdater
+#  - inherit: jdbc.sqlite.cse.phase
+#    name: keyterm-updaterV
+#    options: |
+#              - inherit: hellobioqa.team06.keyterm.VgangWhatizitUpdater
       #- inherit: helloqa.keyterm.simple
   - inherit: jdbc.sqlite.cse.phase
     name: keyterm-updater1
