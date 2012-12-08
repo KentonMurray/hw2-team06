@@ -7,13 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.cmu.lti.oaqa.cse.basephase.keyterm.AbstractKeytermExtractor;
+import edu.cmu.lti.oaqa.cse.basephase.keyterm.AbstractKeytermUpdater;
 import edu.cmu.lti.oaqa.framework.data.Keyterm;
 
-public class VgangWhatizitUpdater extends AbstractKeytermExtractor{
+public class VgangWhatizitUpdater extends AbstractKeytermUpdater{
 
   @Override
-  protected List<Keyterm> getKeyterms(String SentenceText) {
-    List<Keyterm> returnedTerms = new ArrayList<Keyterm>();
+  protected List<Keyterm> updateKeyterms(String SentenceText, List<Keyterm> keyterms) {
+    //List<Keyterm> returnedTerms = new ArrayList<Keyterm>();
     // TODO Auto-generated method stub
     String lines[] = SentenceText.split("\\r?\\n");
     for (int i = 0; i < lines.length; i++) {
@@ -24,8 +25,8 @@ public class VgangWhatizitUpdater extends AbstractKeytermExtractor{
         String s = "whatizitProteinDiseaseUMLS\n <document xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:z='http://www.ebi.ac.uk/z' source='Whatizit'><text>"+ SentenceText + "</text></document>";
         byte[] b = s.getBytes("US-ASCII");
         InputStream in = new ByteArrayInputStream(b);
-        client.upload(in, returnedTerms);
-        client.download(System.out, returnedTerms);
+        client.upload(in, keyterms);
+        client.download(System.out, keyterms);
         client.close();
       }
       catch (IOException e){
@@ -34,7 +35,7 @@ public class VgangWhatizitUpdater extends AbstractKeytermExtractor{
       }
     }
     
-   return returnedTerms;//null;
+   return keyterms;//null;
   }
 
 //  public static void main(String[] args) {

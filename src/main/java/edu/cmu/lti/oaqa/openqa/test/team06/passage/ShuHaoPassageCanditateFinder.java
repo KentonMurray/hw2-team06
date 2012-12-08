@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -46,46 +44,11 @@ public class ShuHaoPassageCanditateFinder {
     this.textSize = text.length();
     this.scorer = scorer;
   }
-  public int Getdifference(TreeMap<Integer,Integer> lengthMap,int key){
-		int diff = 0;
-		for(Map.Entry<Integer, Integer> entry: lengthMap.entrySet()){
-			if(key < entry.getKey())
-				break;
-			diff = entry.getValue();
-		}
-		return diff;
-	}
-	public String RemoveHTMLtag(String text){
-	  	String striptext = text;
-		String htmldelimit = "<(\"[^\"]*\"|'[^']*'|[^'\">])*>";
-	    Pattern p = Pattern.compile(htmldelimit);
-	    striptext = text.replaceAll(htmldelimit,"");
-	    return striptext;
-	}
-	  public TreeMap<Integer,Integer> MakeLengthMap(String text){
-		  TreeMap<Integer,Integer> lengthMap = new TreeMap<Integer,Integer>();
-		  String htmldelimiter = "<(\"[^\"]*\"|'[^']*'|[^'\">])*>";
-	        Pattern p = Pattern.compile(htmldelimiter);
-	        Matcher m = p.matcher(text);	
-	        int lastend = 0;
-	        int cumulength = 0;
-	        int cumuHTML = 0;
-	        while(m.find()){
-	        	cumulength += m.start() - lastend;
-	        	cumuHTML += (m.end() - m.start());
-	        	lengthMap.put(cumulength, cumuHTML);
-	        	lastend = m.end();
-	        	System.out.println(m.start() +" "+ m.end());
-	        }		  
-	        return lengthMap;
-	  }
-  
+
   public List<PassageCandidate> extractPassages(String[] keyterms) {
     List<List<PassageSpan>> matchingSpans = new ArrayList<List<PassageSpan>>();
-    String striptext = RemoveHTMLtag(text);
-    String[] sentences = striptext.split("[.?!]"); 
-    TreeMap<Integer,Integer> lengthMap = MakeLengthMap(text);
     
+    String[] sentences = text.split("[.?!]");
     
     List<PassageCandidate> result = new ArrayList<PassageCandidate>();
     int accu = 0;
@@ -93,38 +56,23 @@ public class ShuHaoPassageCanditateFinder {
     int sentenceMatches = 0;
     totalMatches = 0;
     totalKeyterms = 0;
-    for(int i = 0 ; i < sentences.length ;i++){
+    for(String sent: sentences){
    // Find all keyterm matches.
-      String sent = sentences[i];
       sentinel = 0;
       sentenceMatches = 0;
       List<PassageSpan> matchedSpans = new ArrayList<PassageSpan>();
       for (String keyterm : keyterms) {
-    	if(keyterm.length() < 3)
-    		continue;
         Pattern p = Pattern.compile(keyterm);
         Matcher m = p.matcher(sent);
         while (m.find()) {
-            if(sentinel == 0){
-            	int begin= 0;
-            	int end = 0;
-            	if(i - 1 >= 0 ){
-            		begin = accu - (sentences[i-1].length()+1);
-            	}
-            	else{
-            		begin = 0;
-            	}
-            	if(i+1 < sentences.length){
-            		end = accu + sent.length() +1+ sentences[i+1].length()+1;
-            	}
-            	else{
-            		end = accu + sent.length()+1;
-            	}
-
-            	PassageSpan match = new PassageSpan(begin,end);
-                matchedSpans.add(match);          
-                sentinel = 1;
-          }
+          //if(sentinel == 0){
+            //PassageSpan match = new PassageSpan(m.start() + accu, m.end() + accu);
+            PassageSpan match = new PassageSpan(accu + 1, sent.length() + accu + 1);
+            //System.out.println(keyterm + " " + (accu+1) +" "+ (sent.length() + accu + 1));
+            matchedSpans.add(match);
+            
+          //  sentinel = 1;
+          //}
           totalMatches++;
           sentenceMatches++;
           continue;
@@ -215,10 +163,9 @@ public class ShuHaoPassageCanditateFinder {
                 totalKeyterms, textSize);
         PassageCandidate window = null;
         try {
-          //System.out.println("Key Sentence: " + text.substring(begin, begin+3));
-          //System.out.println("Score: " + score);
-        	System.out.println("DocID: " + docId + " " + (begin + Getdifference(lengthMap,begin)) + " " + (end + Getdifference(lengthMap,end)) );
-          window = new PassageCandidate(docId, begin + Getdifference(lengthMap,begin), end + Getdifference(lengthMap,end), (float) score, null);
+          System.out.println("Key Sentence: " + text.substring(begin, begin+3));
+          System.out.println("Score: " + score);
+          window = new PassageCandidate(docId, begin, end, (float) score, null);
         } catch (AnalysisEngineProcessException e) {
           e.printStackTrace();
         }

@@ -13,7 +13,7 @@ public class ShuHaoKeytermWindowScorerSum implements KeytermWindowScorer{
     //System.out.println(windowSize + " " + textSize + " ");
     return ((.25d * (double) matchesFound / (double) totalMatches) + .25d
             * ((double) keytermsFound / (double) totalKeyterms) + .25d
-            //* (1 - ((((double) windowSize / (double) textSize)) )) //Squaring to penalize longer windows
+            * (1 - ((((double) windowSize / (double) textSize)) )) //Squaring to penalize longer windows
             );
   }
 }
