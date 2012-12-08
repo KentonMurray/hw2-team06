@@ -18,10 +18,18 @@ import edu.cmu.lti.oaqa.framework.data.Keyterm;
 
 public class ShuLingPipeDisExtractor extends AbstractKeytermExtractor{
 
+  public String[] delimit(String str){
+		String delimiter = "\\(|\\)";
+		//s.replaceAll("\\s+$", "");
+		String b[] = str.split(delimiter);
+		for(int i = 0 ; i < b.length ; i++)
+			b[i] = (b[i].replaceAll("^\\s+", "").replaceAll("\\s+$",""));
+		return b;
+  }
   @Override
   protected List<Keyterm> getKeyterms(String question) {
     // TODO Auto-generated method stub
-    File modelFile = new File("src/ne-en-bio-genia.TokenShapeChunker");
+    File modelFile = new File("./ne-en-bio-genia.TokenShapeChunker");
     Chunker chunker = null;
     Chunking chunking;
     Chunk[] Chunkarray;
@@ -42,11 +50,14 @@ public class ShuLingPipeDisExtractor extends AbstractKeytermExtractor{
       String str;
       str = question.substring(Chunkarray[j].start(),Chunkarray[j].end());
       System.out.println("Extract::::"+str);
-      Keyterm DisTerm = new Keyterm(str);
-      DisTerm.setProbablity((float)0.5);
-      KeyList.add(DisTerm);
+      String strs[] = delimit(str);
+      for(int k = 0 ; k < strs.length ; k++){
+    	  Keyterm DisTerm = new Keyterm(strs[k]);
+    	  DisTerm.setProbablity((float)0.5);
+    	  KeyList.add(DisTerm);
+      }
     }
-/*    FileWriter fstream = null;
+    FileWriter fstream = null;
 	try {
 		fstream = new FileWriter("tokenShape.txt",true);
 	} catch (IOException e) {
@@ -57,7 +68,7 @@ public class ShuLingPipeDisExtractor extends AbstractKeytermExtractor{
     PrintWriter pw = new PrintWriter(out,false);
     pw.println(KeyList);
     pw.close();
-*/
+
     for(int i = 0 ; i < KeyList.size(); i++){
     	System.out.println(KeyList.get(i).getText() + " Prob: " + KeyList.get(i).getProbability());
     }    

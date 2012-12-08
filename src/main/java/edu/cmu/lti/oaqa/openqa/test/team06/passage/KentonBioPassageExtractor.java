@@ -12,6 +12,7 @@ import com.google.common.collect.Lists;
 import edu.cmu.lti.oaqa.framework.data.Keyterm;
 import edu.cmu.lti.oaqa.framework.data.PassageCandidate;
 import edu.cmu.lti.oaqa.framework.data.RetrievalResult;
+import edu.cmu.lti.oaqa.openqa.hello.passage.KeytermWindowScorerSum;
 import edu.cmu.lti.oaqa.openqa.hello.passage.SimplePassageExtractor;
 
 public class KentonBioPassageExtractor extends SimplePassageExtractor {
@@ -23,16 +24,19 @@ public class KentonBioPassageExtractor extends SimplePassageExtractor {
     List<PassageCandidate> result = new ArrayList<PassageCandidate>();
     // System.out.println("Testing");
     for (RetrievalResult document : documents) {
-      System.out.println("RetrievalResult: " + document.toString());
+    //RetrievalResult document = documents.get(1);
+      //System.out.println("RetrievalResult: " + document.toString());
       String id = document.getDocID();
       try {
         String htmlText = wrapper.getDocText(id);
 
         // cleaning HTML text
-        String text = Jsoup.parse(htmlText).text().replaceAll("([\177-\377\0-\32]*)", "")/* .trim() */;
+        String text = htmlText;
+//        String text = Jsoup.parse(htmlText).text().replaceAll("([\177-\377\0-\32]*)", "")/* .trim() */;
+        //System.
         // for now, making sure the text isn't too long
-        text = text.substring(0, Math.min(5000, text.length()));
-        System.out.println(text);
+        //text = text.substring(0, Math.min(15000, text.length()));
+        //System.out.println(text);
 
         KentonPassageCanditateFinder finder = new KentonPassageCanditateFinder(id, text,
                 new KentonKeytermWindowScorerSum());
@@ -43,8 +47,10 @@ public class KentonBioPassageExtractor extends SimplePassageExtractor {
         });
         List<PassageCandidate> passageSpans = finder.extractPassages(keytermStrings
                 .toArray(new String[0]));
-        for (PassageCandidate passageSpan : passageSpans)
+        for (PassageCandidate passageSpan : passageSpans){
           result.add(passageSpan);
+          //System.out.println("passageSpan: " + passageSpan.getDocID() + " Start: "+passageSpan.getStart() + " End: " + passageSpan.getEnd());
+        }
       } catch (SolrServerException e) {
         e.printStackTrace();
       }

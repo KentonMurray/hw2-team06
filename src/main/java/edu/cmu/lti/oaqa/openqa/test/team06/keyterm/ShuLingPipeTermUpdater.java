@@ -21,7 +21,7 @@ public class ShuLingPipeTermUpdater extends AbstractKeytermUpdater{
   @Override
   protected List<Keyterm> updateKeyterms(String question, List<Keyterm> keyterms) {
     // TODO Auto-generated method stub
-    File modelFile = new File("src/ne-en-bio-genetag.HmmChunker");
+    File modelFile = new File("./ne-en-bio-genetag.HmmChunker");
     Chunker chunker = null;
     Chunking chunking;
     Chunk[] Chunkarray;

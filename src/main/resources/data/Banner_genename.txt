@@ -127,3 +127,1897 @@ Structural Query: +"mad cow disease" +prp(c)
 Synonym: prp(c)
 Number of retireved Documents: 111
 
+Query: What is the role of IDE in Alzheimer's disease
+Disease:IDE Disease:Alzheimer's disease 
+Structural Query: +IDE +"Alzheimer's disease" 
+
+Number of retireved Documents: 150
+
+Query: What is the role of MMS2 in cancer?
+Gene Name:MMS2  Disease:cancer 
+Structural Query: +MMS2 +cancer 
+
+Disease:cancer Gene Name:YGL087C  
+Structural Query: +cancer +YGL087C 
+Synonym: YGL087C
+Disease:cancer Gene Name:SPCC338.05c  
+Structural Query: +cancer +SPCC338.05c 
+Synonym: SPCC338.05c
+Disease:cancer Gene Name:PICST_34709  
+Structural Query: +cancer +PICST_34709 
+Synonym: PICST_34709
+Disease:cancer Gene Name:CaO19.6358  
+Structural Query: +cancer +CaO19.6358 
+Synonym: CaO19.6358
+Disease:cancer Gene Name:CaO19.13715  
+Structural Query: +cancer +CaO19.13715 
+Synonym: CaO19.13715
+Disease:cancer Gene Name:DDVIT1  
+Structural Query: +cancer +DDVIT1 
+Synonym: DDVIT1
+Disease:cancer Gene Name:DDVit-1  
+Structural Query: +cancer +DDVit-1 
+Synonym: DDVit-1
+Disease:cancer Gene Name:EDAF-1  
+Structural Query: +cancer +EDAF-1 
+Synonym: EDAF-1
+Disease:cancer Gene Name:EDPF-1  
+Structural Query: +cancer +EDPF-1 
+Synonym: EDPF-1
+Disease:cancer Gene Name:EDPF1  
+Structural Query: +cancer +EDPF1 
+Synonym: EDPF1
+Disease:cancer Gene Name:UEV-2  
+Structural Query: +cancer +UEV-2 
+Synonym: UEV-2
+Disease:cancer Gene Name:UEV2  
+Structural Query: +cancer +UEV2 
+Synonym: UEV2
+Disease:cancer Gene Name:FBgn0044865  
+Structural Query: +cancer +FBgn0044865 
+Synonym: FBgn0044865
+Disease:cancer Gene Name:RP23-310H3.1  
+Structural Query: +cancer +RP23-310H3.1 
+Synonym: RP23-310H3.1
+Disease:cancer Gene Name:1110021H13Rik  
+Structural Query: +cancer +1110021H13Rik 
+Synonym: 1110021H13Rik
+Disease:cancer Gene Name:4632410D19Rik  
+Structural Query: +cancer +4632410D19Rik 
+Synonym: 4632410D19Rik
+Disease:cancer Gene Name:5730524P06Rik  
+Structural Query: +cancer +5730524P06Rik 
+Synonym: 5730524P06Rik
+Disease:cancer Gene Name:6820402M05  
+Structural Query: +cancer +6820402M05 
+Synonym: 6820402M05
+Disease:cancer Gene Name:AI848315  
+Structural Query: +cancer +AI848315 
+Synonym: AI848315
+Disease:cancer Gene Name:C81524  
+Structural Query: +cancer +C81524 
+Synonym: C81524
+Disease:cancer Gene Name:ddvit-1  
+Structural Query: +cancer +ddvit-1 
+Synonym: ddvit-1
+Disease:cancer Gene Name:ddvit1  
+Structural Query: +cancer +ddvit1 
+Synonym: ddvit1
+Disease:cancer Gene Name:edaf-1  
+Structural Query: +cancer +edaf-1 
+Synonym: edaf-1
+Disease:cancer Gene Name:edpf-1  
+Structural Query: +cancer +edpf-1 
+Synonym: edpf-1
+Disease:cancer Gene Name:edpf1  
+Structural Query: +cancer +edpf1 
+Synonym: edpf1
+Disease:cancer Gene Name:uev-2  
+Structural Query: +cancer +uev-2 
+Synonym: uev-2
+Disease:cancer Gene Name:uev2  
+Structural Query: +cancer +uev2 
+Synonym: uev2
+Disease:cancer Gene Name:CD36_11830  
+Structural Query: +cancer +CD36_11830 
+Synonym: CD36_11830
+Number of retireved Documents: 34
+
+Query: What is the role of APC (adenomatous polyposis coli) in colon cancer?
+Gene Name:APC  Disease:adenomatous polyposis coli Disease:colon cancer 
+Structural Query: +APC +"adenomatous polyposis coli" +"colon cancer" 
+
+Number of retireved Documents: 150
+
+Query: What is the role of Nurr-77 in Parkinson's disease?
+Gene Name:Nurr  Disease:Parkinson's disease 
+Structural Query: +Nurr +"Parkinson's disease" 
+
+Disease:Parkinson's disease Gene Name:ACTH  
+Structural Query: +"Parkinson's disease" +ACTH 
+Synonym: ACTH
+Disease:Parkinson's disease Gene Name:BE  
+Structural Query: +"Parkinson's disease" +BE 
+Synonym: BE
+Disease:Parkinson's disease Gene Name:Pomc-1  
+Structural Query: +"Parkinson's disease" +Pomc-1 
+Synonym: Pomc-1
+Disease:Parkinson's disease Gene Name:Pomc1  
+Structural Query: +"Parkinson's disease" +Pomc1 
+Synonym: Pomc1
+Disease:Parkinson's disease Gene Name:alpha-MSH  
+Structural Query: +"Parkinson's disease" +alpha-MSH 
+Synonym: alpha-MSH
+Disease:Parkinson's disease Gene Name:alphaMSH  
+Structural Query: +"Parkinson's disease" +alphaMSH 
+Synonym: alphaMSH
+Disease:Parkinson's disease Gene Name:beta-MSH  
+Structural Query: +"Parkinson's disease" +beta-MSH 
+Synonym: beta-MSH
+Disease:Parkinson's disease Gene Name:gamma-MSH  
+Structural Query: +"Parkinson's disease" +gamma-MSH 
+Synonym: gamma-MSH
+Disease:Parkinson's disease Gene Name:RP23-271B15.1  
+Structural Query: +"Parkinson's disease" +RP23-271B15.1 
+Synonym: RP23-271B15.1
+Disease:Parkinson's disease Gene Name:HZF-3  
+Structural Query: +"Parkinson's disease" +HZF-3 
+Synonym: HZF-3
+Disease:Parkinson's disease Gene Name:Nurr1  
+Structural Query: +"Parkinson's disease" +Nurr1 
+Synonym: Nurr1
+Disease:Parkinson's disease Gene Name:RNR-1  
+Structural Query: +"Parkinson's disease" +RNR-1 
+Synonym: RNR-1
+Disease:Parkinson's disease Gene Name:TINOR  
+Structural Query: +"Parkinson's disease" +TINOR 
+Synonym: TINOR
+Disease:Parkinson's disease Gene Name:TINUR  
+Structural Query: +"Parkinson's disease" +TINUR 
+Synonym: TINUR
+Number of retireved Documents: 83
+
+Query: How do Cathepsin D (CTSD) and apolipoprotein E (ApoE) interactions contribute to Alzheimer's disease?
+Verb:contribute Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Gene Name:ApoE  Disease:Alzheimer's disease 
+Structural Query: contribute +"apolipoprotein E" +"Cathepsin D" +CTSD +E +ApoE +"Alzheimer's disease" 
+
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:FLDB  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +FLDB 
+Synonym: FLDB
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LDLCQ4  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +LDLCQ4 
+Synonym: LDLCQ4
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APO-CII  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APO-CII 
+Synonym: APO-CII
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOC-II  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APOC-II 
+Synonym: APOC-II
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AD2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AD2 
+Synonym: AD2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LDLCQ5  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +LDLCQ5 
+Synonym: LDLCQ5
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LPG  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +LPG 
+Synonym: LPG
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AI255918  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AI255918 
+Synonym: AI255918
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Alp-1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Alp-1 
+Synonym: Alp-1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Apoa-1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Apoa-1 
+Synonym: Apoa-1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Brp-14  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Brp-14 
+Synonym: Brp-14
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Ltw-1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Ltw-1 
+Synonym: Ltw-1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Lvtw-1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Lvtw-1 
+Synonym: Lvtw-1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Sep-1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Sep-1 
+Synonym: Sep-1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Sep-2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Sep-2 
+Synonym: Sep-2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Sep2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Sep2 
+Synonym: Sep2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:UNQ411/PRO773  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +UNQ411/PRO773 
+Synonym: UNQ411/PRO773
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOAV  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APOAV 
+Synonym: APOAV
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:RAP3  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +RAP3 
+Synonym: RAP3
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:MDS019  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +MDS019 
+Synonym: MDS019
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ARCD  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ARCD 
+Synonym: ARCD
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ARP-9  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ARP-9 
+Synonym: ARP-9
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ARP9  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ARP9 
+Synonym: ARP9
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CEM-15  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CEM-15 
+Synonym: CEM-15
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CEM15  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CEM15 
+Synonym: CEM15
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:bK150C2.7  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +bK150C2.7 
+Synonym: bK150C2.7
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:dJ494G10.1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +dJ494G10.1 
+Synonym: dJ494G10.1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOCIII  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APOCIII 
+Synonym: APOCIII
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:HALP2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +HALP2 
+Synonym: HALP2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Apo-AII  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Apo-AII 
+Synonym: Apo-AII
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ApoA-II  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ApoA-II 
+Synonym: ApoA-II
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apoAII  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +apoAII 
+Synonym: apoAII
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AK38  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AK38 
+Synonym: AK38
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOA  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APOA 
+Synonym: APOA
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LP  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +LP 
+Synonym: LP
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apoA-I  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +apoA-I 
+Synonym: apoA-I
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:mCG_129875  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +mCG_129875 
+Synonym: mCG_129875
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AI315052  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AI315052 
+Synonym: AI315052
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apob-100  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +apob-100 
+Synonym: apob-100
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apob-48  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +apob-48 
+Synonym: apob-48
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Alp-2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Alp-2 
+Synonym: Alp-2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ApoAII  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ApoAII 
+Synonym: ApoAII
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Apoa-2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Apoa-2 
+Synonym: Apoa-2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Hdl-1  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Hdl-1 
+Synonym: Hdl-1
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOEA  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APOEA 
+Synonym: APOEA
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DADB-127H9.5  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +DADB-127H9.5 
+Synonym: DADB-127H9.5
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:G3a  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +G3a 
+Synonym: G3a
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:HSPC336  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +HSPC336 
+Synonym: HSPC336
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:NG20  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +NG20 
+Synonym: NG20
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apo-M  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +apo-M 
+Synonym: apo-M
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:A2MR  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +A2MR 
+Synonym: A2MR
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOER  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APOER 
+Synonym: APOER
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APR  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APR 
+Synonym: APR
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CD91  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CD91 
+Synonym: CD91
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:IGFBP3R  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +IGFBP3R 
+Synonym: IGFBP3R
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LRP  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +LRP 
+Synonym: LRP
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:TGFBR5  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +TGFBR5 
+Synonym: TGFBR5
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:RP23-184N11.8  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +RP23-184N11.8 
+Synonym: RP23-184N11.8
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:4932703M08Rik  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +4932703M08Rik 
+Synonym: 4932703M08Rik
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AA921429  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AA921429 
+Synonym: AA921429
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AI848122  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AI848122 
+Synonym: AI848122
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ApoER2  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ApoER2 
+Synonym: ApoER2
+Gene Name:Cathepsin D  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Lr8b  
+Structural Query: +"Cathepsin D" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Lr8b 
+Synonym: Lr8b
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APPS  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +APPS 
+Synonym: APPS
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CPSB  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CPSB 
+Synonym: CPSB
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CLN10  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CLN10 
+Synonym: CLN10
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CPSD  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CPSD 
+Synonym: CPSD
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:RP11-65B23.1  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +RP11-65B23.1 
+Synonym: RP11-65B23.1
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CATL  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CATL 
+Synonym: CATL
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSL  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSL 
+Synonym: CTSL
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:MEP  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +MEP 
+Synonym: MEP
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:RP11-363I22.4  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +RP11-363I22.4 
+Synonym: RP11-363I22.4
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTS02  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTS02 
+Synonym: CTS02
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSO  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSO 
+Synonym: CTSO
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSO1  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSO1 
+Synonym: CTSO1
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSO2  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSO2 
+Synonym: CTSO2
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:PKND  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +PKND 
+Synonym: PKND
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:PYCD  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +PYCD 
+Synonym: PYCD
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:1190035F06Rik  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +1190035F06Rik 
+Synonym: 1190035F06Rik
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Ctsl1  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Ctsl1 
+Synonym: Ctsl1
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:fs  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +fs 
+Synonym: fs
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:nkt  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +nkt 
+Synonym: nkt
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CB  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CB 
+Synonym: CB
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CD  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CD 
+Synonym: CD
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CatD  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CatD 
+Synonym: CatD
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AI323530  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +AI323530 
+Synonym: AI323530
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:MMS10-Q  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +MMS10-Q 
+Synonym: MMS10-Q
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Ms10q  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Ms10q 
+Synonym: Ms10q
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:catK  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +catK 
+Synonym: catK
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CPPI  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CPPI 
+Synonym: CPPI
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DPP-I  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +DPP-I 
+Synonym: DPP-I
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DPP1  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +DPP1 
+Synonym: DPP1
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DPPI  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +DPPI 
+Synonym: DPPI
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:HMS  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +HMS 
+Synonym: HMS
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:JP  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +JP 
+Synonym: JP
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:JPD  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +JPD 
+Synonym: JPD
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:PALS  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +PALS 
+Synonym: PALS
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:PLS  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +PLS 
+Synonym: PLS
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CATHL  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CATHL 
+Synonym: CATHL
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CatL  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CatL 
+Synonym: CatL
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Ctsl  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +Ctsl 
+Synonym: Ctsl
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CATE  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CATE 
+Synonym: CATE
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CATG  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CATG 
+Synonym: CATG
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CG  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CG 
+Synonym: CG
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ACC-4  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ACC-4 
+Synonym: ACC-4
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ACC-5  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +ACC-5 
+Synonym: ACC-5
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:minichain  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +minichain 
+Synonym: minichain
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:UNQ268/PRO305  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +UNQ268/PRO305 
+Synonym: UNQ268/PRO305
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CATL2  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CATL2 
+Synonym: CATL2
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSU  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSU 
+Synonym: CTSU
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSV  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSV 
+Synonym: CTSV
+Gene Name:apolipoprotein E  Gene Name:CTSD  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CTSX  
+Structural Query: +"apolipoprotein E" +CTSD +ApoE +E +"Alzheimer's disease" contribute +CTSX 
+Synonym: CTSX
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CLN10  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CLN10 
+Synonym: CLN10
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CPSD  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CPSD 
+Synonym: CPSD
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CD  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CD 
+Synonym: CD
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CatD  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CatD 
+Synonym: CatD
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DKEY-207D5.3  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +DKEY-207D5.3 
+Synonym: DKEY-207D5.3
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:catD  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +catD 
+Synonym: catD
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:fb93e11  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +fb93e11 
+Synonym: fb93e11
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:fj17b09  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +fj17b09 
+Synonym: fj17b09
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fb93e11  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +wu:fb93e11 
+Synonym: wu:fb93e11
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fj17b09  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +wu:fj17b09 
+Synonym: wu:fj17b09
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:BOS_25072  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +BOS_25072 
+Synonym: BOS_25072
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DDB_G0279411  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +DDB_G0279411 
+Synonym: DDB_G0279411
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DDBDRAFT_0205785  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +DDBDRAFT_0205785 
+Synonym: DDBDRAFT_0205785
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DDBDRAFT_0215012  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +DDBDRAFT_0215012 
+Synonym: DDBDRAFT_0215012
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DDB_0205785  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +DDB_0205785 
+Synonym: DDB_0205785
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:DDB_0215012  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +DDB_0215012 
+Synonym: DDB_0215012
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CJE1647  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CJE1647 
+Synonym: CJE1647
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Cla_0390  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +Cla_0390 
+Synonym: Cla_0390
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CLA0752  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CLA0752 
+Synonym: CLA0752
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Cj1474c  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +Cj1474c 
+Synonym: Cj1474c
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:C8J_1379  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +C8J_1379 
+Synonym: C8J_1379
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ROD_34201  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +ROD_34201 
+Synonym: ROD_34201
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:JJD26997_1821  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +JJD26997_1821 
+Synonym: JJD26997_1821
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:ApoE  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:CJJ81176_1467  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +ApoE +E +"Alzheimer's disease" contribute +CJJ81176_1467 
+Synonym: CJJ81176_1467
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AD2  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +AD2 
+Synonym: AD2
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LDLCQ5  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +LDLCQ5 
+Synonym: LDLCQ5
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:LPG  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +LPG 
+Synonym: LPG
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:AI255918  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +AI255918 
+Synonym: AI255918
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:APOEA  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +APOEA 
+Synonym: APOEA
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:BOS_17599  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +BOS_17599 
+Synonym: BOS_17599
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:Apo-E  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +Apo-E 
+Synonym: Apo-E
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ad2  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +ad2 
+Synonym: ad2
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apo-e  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +apo-e 
+Synonym: apo-e
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:apoprotein  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +apoprotein 
+Synonym: apoprotein
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:ldlcq5  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +ldlcq5 
+Synonym: ldlcq5
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:lpg  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +lpg 
+Synonym: lpg
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:cb82  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +cb82 
+Synonym: cb82
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:fa96d02  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +fa96d02 
+Synonym: fa96d02
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:hm:zeh1311  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +hm:zeh1311 
+Synonym: hm:zeh1311
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fa03d06  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +wu:fa03d06 
+Synonym: wu:fa03d06
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fa96d02  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +wu:fa96d02 
+Synonym: wu:fa96d02
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fa97a11  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +wu:fa97a11 
+Synonym: wu:fa97a11
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fc95h12  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +wu:fc95h12 
+Synonym: wu:fc95h12
+Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Disease:Alzheimer's disease Verb:contribute Gene Name:wu:fj54e06  
+Structural Query: +"apolipoprotein E" +"Cathepsin D" +CTSD +E +"Alzheimer's disease" contribute +wu:fj54e06 
+Synonym: wu:fj54e06
+Verb:contribute Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Gene Name:ApoE  Disease:Alzheimer's disease 
+Structural Query: contribute +"apolipoprotein E" +"Cathepsin D" +CTSD E +ApoE "Alzheimer's disease" 
+Verb:contribute Gene Name:apolipoprotein E  Gene Name:Cathepsin D  Gene Name:CTSD  Disease:E Gene Name:ApoE  Disease:Alzheimer's disease 
+Structural Query: contribute "apolipoprotein E" "Cathepsin D" CTSD E ApoE "Alzheimer's disease" 
+Number of retireved Documents: 26
+
+Query: What is the role of Transforming growth factor-beta1 (TGF-beta1) in cerebral amyloid angiopathy (CAA)?
+Gene Name:Transforming growth factor-beta1  Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA 
+Structural Query: +"Transforming growth factor-beta1" +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA 
+
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AAT3  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +AAT3 
+Synonym: AAT3
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:FAA3  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +FAA3 
+Synonym: FAA3
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:LDS1B  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +LDS1B 
+Synonym: LDS1B
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:LDS2B  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +LDS2B 
+Synonym: LDS2B
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:MFS2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +MFS2 
+Synonym: MFS2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RIIC  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RIIC 
+Synonym: RIIC
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TAAD2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TAAD2 
+Synonym: TAAD2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFR-2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGFR-2 
+Synonym: TGFR-2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFbeta-RII  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGFbeta-RII 
+Synonym: TGFbeta-RII
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RP11-96L7.1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RP11-96L7.1 
+Synonym: RP11-96L7.1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AAT5  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +AAT5 
+Synonym: AAT5
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:ACVRLK4  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +ACVRLK4 
+Synonym: ACVRLK4
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:ALK-5  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +ALK-5 
+Synonym: ALK-5
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:ALK5  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +ALK5 
+Synonym: ALK5
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:LDS1A  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +LDS1A 
+Synonym: LDS1A
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:LDS2A  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +LDS2A 
+Synonym: LDS2A
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:MSSE  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +MSSE 
+Synonym: MSSE
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:SKR4  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +SKR4 
+Synonym: SKR4
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFR-1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGFR-1 
+Synonym: TGFR-1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:CED  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +CED 
+Synonym: CED
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:DPD1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +DPD1 
+Synonym: DPD1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:LAP  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +LAP 
+Synonym: LAP
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFB  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGFB 
+Synonym: TGFB
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFbeta  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGFbeta 
+Synonym: TGFbeta
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGF-beta1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGF-beta1 
+Synonym: TGF-beta1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFbeta1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGFbeta1 
+Synonym: TGFbeta1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfb  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Tgfb 
+Synonym: Tgfb
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfb-1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Tgfb-1 
+Synonym: Tgfb-1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:BGCAN  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +BGCAN 
+Synonym: BGCAN
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:betaglycan  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +betaglycan 
+Synonym: betaglycan
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:1110020H15Rik  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +1110020H15Rik 
+Synonym: 1110020H15Rik
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AU042018  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +AU042018 
+Synonym: AU042018
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:DNIIR  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +DNIIR 
+Synonym: DNIIR
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RIIDN  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RIIDN 
+Synonym: RIIDN
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TBR-II  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TBR-II 
+Synonym: TBR-II
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TbetaR-II  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TbetaR-II 
+Synonym: TbetaR-II
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TbetaRII  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TbetaRII 
+Synonym: TbetaRII
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGF-beta 2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +"TGF-beta 2" 
+Synonym: TGF-beta 2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfbr2T  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Tgfbr2T 
+Synonym: Tgfbr2T
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RP23-457P12.1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RP23-457P12.1 
+Synonym: RP23-457P12.1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AU017191  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +AU017191 
+Synonym: AU017191
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Alk-5  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Alk-5 
+Synonym: Alk-5
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TbetaR-I  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TbetaR-I 
+Synonym: TbetaR-I
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TbetaRI  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TbetaRI 
+Synonym: TbetaRI
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:ARVD  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +ARVD 
+Synonym: ARVD
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGF-beta3  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGF-beta3 
+Synonym: TGF-beta3
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:1110036H20Rik  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +1110036H20Rik 
+Synonym: 1110036H20Rik
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AU015626  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +AU015626 
+Synonym: AU015626
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AW215636  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +AW215636 
+Synonym: AW215636
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TBRIII  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TBRIII 
+Synonym: TBRIII
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfb-3  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Tgfb-3 
+Synonym: Tgfb-3
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:LDS4  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +LDS4 
+Synonym: LDS4
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGF-beta2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGF-beta2 
+Synonym: TGF-beta2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:BB105277  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +BB105277 
+Synonym: BB105277
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgf-beta2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Tgf-beta2 
+Synonym: Tgf-beta2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfb-2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +Tgfb-2 
+Synonym: Tgfb-2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGF-B3  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGF-B3 
+Synonym: TGF-B3
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGF-B2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +TGF-B2 
+Synonym: TGF-B2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:ARH12  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +ARH12 
+Synonym: ARH12
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:ARHA  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +ARHA 
+Synonym: ARHA
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RHO12  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RHO12 
+Synonym: RHO12
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RHOH12  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RHOH12 
+Synonym: RHOH12
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:C-K-RAS  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +C-K-RAS 
+Synonym: C-K-RAS
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:K-RAS2A  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +K-RAS2A 
+Synonym: K-RAS2A
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:K-RAS2B  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +K-RAS2B 
+Synonym: K-RAS2B
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:K-RAS4A  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +K-RAS4A 
+Synonym: K-RAS4A
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:K-RAS4B  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +K-RAS4B 
+Synonym: K-RAS4B
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:KI-RAS  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +KI-RAS 
+Synonym: KI-RAS
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:KRAS1  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +KRAS1 
+Synonym: KRAS1
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:KRAS2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +KRAS2 
+Synonym: KRAS2
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:NS  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +NS 
+Synonym: NS
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:NS3  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +NS3 
+Synonym: NS3
+Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RASK2  
+Structural Query: +TGF-beta1 +cerebral +"amyloid angiopathy" +CAA +RASK2 
+Synonym: RASK2
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TGFbeta1  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +TGFbeta1 
+Synonym: TGFbeta1
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfb  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +Tgfb 
+Synonym: Tgfb
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tgfb-1  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +Tgfb-1 
+Synonym: Tgfb-1
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:9430031G15Rik  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +9430031G15Rik 
+Synonym: 9430031G15Rik
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:9830146M04  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +9830146M04 
+Synonym: 9830146M04
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Ltbp-1  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +Ltbp-1 
+Synonym: Ltbp-1
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RP1-290F12.2  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +RP1-290F12.2 
+Synonym: RP1-290F12.2
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:CDA1  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +CDA1 
+Synonym: CDA1
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:CINAP  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +CINAP 
+Synonym: CINAP
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:CTCL  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +CTCL 
+Synonym: CTCL
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:DENTT  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +DENTT 
+Synonym: DENTT
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:HRIHFB2216  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +HRIHFB2216 
+Synonym: HRIHFB2216
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:NP79  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +NP79 
+Synonym: NP79
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:SE204  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +SE204 
+Synonym: SE204
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:TSPX  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +TSPX 
+Synonym: TSPX
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:RP23-147K15.1  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +RP23-147K15.1 
+Synonym: RP23-147K15.1
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:DXBwg1396e  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +DXBwg1396e 
+Synonym: DXBwg1396e
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:DXHXS1008E  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +DXHXS1008E 
+Synonym: DXHXS1008E
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:E130307F10Rik  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +E130307F10Rik 
+Synonym: E130307F10Rik
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:Tif2  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +Tif2 
+Synonym: Tif2
+Gene Name:Transforming growth factor-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA Gene Name:AI790342  
+Structural Query: +"Transforming growth factor-beta1" +cerebral +"amyloid angiopathy" +CAA +AI790342 
+Synonym: AI790342
+Gene Name:Transforming growth factor-beta1  Gene Name:TGF-beta1  Disease:cerebral Disease:amyloid angiopathy Disease:CAA 
+Structural Query: +"Transforming growth factor-beta1" +TGF-beta1 cerebral "amyloid angiopathy" CAA 
+Number of retireved Documents: 20
+
+Query: How does nucleoside diphosphate kinase (NM23) contribute to tumor progression?
+Verb:contribute Gene Name:nucleoside diphosphate kinase  Gene Name:NM23  Disease:tumor progression 
+Structural Query: contribute +"nucleoside diphosphate kinase" +NM23 +"tumor progression" 
+
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NP  
+Structural Query: +NM23 +"tumor progression" contribute +NP 
+Synonym: NP
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:PRO1837  
+Structural Query: +NM23 +"tumor progression" contribute +PRO1837 
+Synonym: PRO1837
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:PUNP  
+Structural Query: +NM23 +"tumor progression" contribute +PUNP 
+Synonym: PUNP
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:AWD  
+Structural Query: +NM23 +"tumor progression" contribute +AWD 
+Synonym: AWD
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:GAAD  
+Structural Query: +NM23 +"tumor progression" contribute +GAAD 
+Synonym: GAAD
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NB  
+Structural Query: +NM23 +"tumor progression" contribute +NB 
+Synonym: NB
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NBS  
+Structural Query: +NM23 +"tumor progression" contribute +NBS 
+Synonym: NBS
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDKA  
+Structural Query: +NM23 +"tumor progression" contribute +NDKA 
+Synonym: NDKA
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDPK-A  
+Structural Query: +NM23 +"tumor progression" contribute +NDPK-A 
+Synonym: NDPK-A
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDPKA  
+Structural Query: +NM23 +"tumor progression" contribute +NDPKA 
+Synonym: NDPKA
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NM23  
+Structural Query: +NM23 +"tumor progression" contribute +NM23 
+Synonym: NM23
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NM23-H1  
+Structural Query: +NM23 +"tumor progression" contribute +NM23-H1 
+Synonym: NM23-H1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:ENT1  
+Structural Query: +NM23 +"tumor progression" contribute +ENT1 
+Synonym: ENT1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:CNT2  
+Structural Query: +NM23 +"tumor progression" contribute +CNT2 
+Synonym: CNT2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:HCNT2  
+Structural Query: +NM23 +"tumor progression" contribute +HCNT2 
+Synonym: HCNT2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:HsT17153  
+Structural Query: +NM23 +"tumor progression" contribute +HsT17153 
+Synonym: HsT17153
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:SPNT1  
+Structural Query: +NM23 +"tumor progression" contribute +SPNT1 
+Synonym: SPNT1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:AL024301  
+Structural Query: +NM23 +"tumor progression" contribute +AL024301 
+Synonym: AL024301
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:AU015798  
+Structural Query: +NM23 +"tumor progression" contribute +AU015798 
+Synonym: AU015798
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Np  
+Structural Query: +NM23 +"tumor progression" contribute +Np 
+Synonym: Np
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Np-1  
+Structural Query: +NM23 +"tumor progression" contribute +Np-1 
+Synonym: Np-1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Np-2  
+Structural Query: +NM23 +"tumor progression" contribute +Np-2 
+Synonym: Np-2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Pnp1  
+Structural Query: +NM23 +"tumor progression" contribute +Pnp1 
+Synonym: Pnp1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:CNT1  
+Structural Query: +NM23 +"tumor progression" contribute +CNT1 
+Synonym: CNT1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:HCNT1  
+Structural Query: +NM23 +"tumor progression" contribute +HCNT1 
+Synonym: HCNT1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:RP23-173H17.7  
+Structural Query: +NM23 +"tumor progression" contribute +RP23-173H17.7 
+Synonym: RP23-173H17.7
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:2010208B10Rik  
+Structural Query: +NM23 +"tumor progression" contribute +2010208B10Rik 
+Synonym: 2010208B10Rik
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:B430217P18  
+Structural Query: +NM23 +"tumor progression" contribute +B430217P18 
+Synonym: B430217P18
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:BB152493  
+Structural Query: +NM23 +"tumor progression" contribute +BB152493 
+Synonym: BB152493
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Cnt2  
+Structural Query: +NM23 +"tumor progression" contribute +Cnt2 
+Synonym: Cnt2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:CNT3  
+Structural Query: +NM23 +"tumor progression" contribute +CNT3 
+Synonym: CNT3
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDKB  
+Structural Query: +NM23 +"tumor progression" contribute +NDKB 
+Synonym: NDKB
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDPK-B  
+Structural Query: +NM23 +"tumor progression" contribute +NDPK-B 
+Synonym: NDPK-B
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDPKB  
+Structural Query: +NM23 +"tumor progression" contribute +NDPKB 
+Synonym: NDPKB
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NM23-H2  
+Structural Query: +NM23 +"tumor progression" contribute +NM23-H2 
+Synonym: NM23-H2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NM23B  
+Structural Query: +NM23 +"tumor progression" contribute +NM23B 
+Synonym: NM23B
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:PUF  
+Structural Query: +NM23 +"tumor progression" contribute +PUF 
+Synonym: PUF
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:nm23-2  
+Structural Query: +NM23 +"tumor progression" contribute +nm23-2 
+Synonym: nm23-2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:p18-12d  
+Structural Query: +NM23 +"tumor progression" contribute +p18-12d 
+Synonym: p18-12d
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:RP23-378I13.2  
+Structural Query: +NM23 +"tumor progression" contribute +RP23-378I13.2 
+Synonym: RP23-378I13.2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:nm23-M2  
+Structural Query: +NM23 +"tumor progression" contribute +nm23-M2 
+Synonym: nm23-M2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:1200014D21Rik  
+Structural Query: +NM23 +"tumor progression" contribute +1200014D21Rik 
+Synonym: 1200014D21Rik
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:AA407560  
+Structural Query: +NM23 +"tumor progression" contribute +AA407560 
+Synonym: AA407560
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:RP23-378I13.1  
+Structural Query: +NM23 +"tumor progression" contribute +RP23-378I13.1 
+Synonym: RP23-378I13.1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:AL024257  
+Structural Query: +NM23 +"tumor progression" contribute +AL024257 
+Synonym: AL024257
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NM23-M1  
+Structural Query: +NM23 +"tumor progression" contribute +NM23-M1 
+Synonym: NM23-M1
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NM23A  
+Structural Query: +NM23 +"tumor progression" contribute +NM23A 
+Synonym: NM23A
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Cnt3  
+Structural Query: +NM23 +"tumor progression" contribute +Cnt3 
+Synonym: Cnt3
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Dmel_CG2210  
+Structural Query: +NM23 +"tumor progression" contribute +Dmel_CG2210 
+Synonym: Dmel_CG2210
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:1084/08  
+Structural Query: +NM23 +"tumor progression" contribute +1084/08 
+Synonym: 1084/08
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Awd  
+Structural Query: +NM23 +"tumor progression" contribute +Awd 
+Synonym: Awd
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:BcDNA:GM19775  
+Structural Query: +NM23 +"tumor progression" contribute +BcDNA:GM19775 
+Synonym: BcDNA:GM19775
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:BcDNA:RH27794  
+Structural Query: +NM23 +"tumor progression" contribute +BcDNA:RH27794 
+Synonym: BcDNA:RH27794
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:CG2210  
+Structural Query: +NM23 +"tumor progression" contribute +CG2210 
+Synonym: CG2210
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Dmel\CG2210  
+Structural Query: +NM23 +"tumor progression" contribute +Dmel\CG2210 
+Synonym: Dmel\CG2210
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:K-pn  
+Structural Query: +NM23 +"tumor progression" contribute +K-pn 
+Synonym: K-pn
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Kpn  
+Structural Query: +NM23 +"tumor progression" contribute +Kpn 
+Synonym: Kpn
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:NDPK  
+Structural Query: +NM23 +"tumor progression" contribute +NDPK 
+Synonym: NDPK
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:Nm23/awd  
+Structural Query: +NM23 +"tumor progression" contribute +Nm23/awd 
+Synonym: Nm23/awd
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:anon-EST:Liang-2.27  
+Structural Query: +NM23 +"tumor progression" contribute +anon-EST:Liang-2.27 
+Synonym: anon-EST:Liang-2.27
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:anon-EST:Liang-2.28  
+Structural Query: +NM23 +"tumor progression" contribute +anon-EST:Liang-2.28 
+Synonym: anon-EST:Liang-2.28
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:anon-WO0172774.80  
+Structural Query: +NM23 +"tumor progression" contribute +anon-WO0172774.80 
+Synonym: anon-WO0172774.80
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:anon-WO0172774.82  
+Structural Query: +NM23 +"tumor progression" contribute +anon-WO0172774.82 
+Synonym: anon-WO0172774.82
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:clone 2.27  
+Structural Query: +NM23 +"tumor progression" contribute +"clone 2.27" 
+Synonym: clone 2.27
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:clone 2.28  
+Structural Query: +NM23 +"tumor progression" contribute +"clone 2.28" 
+Synonym: clone 2.28
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:e(shi)A  
+Structural Query: +NM23 +"tumor progression" contribute +e(shi)A 
+Synonym: e(shi)A
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:eshiA  
+Structural Query: +NM23 +"tumor progression" contribute +eshiA 
+Synonym: eshiA
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:l(3)L8700  
+Structural Query: +NM23 +"tumor progression" contribute +l(3)L8700 
+Synonym: l(3)L8700
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:l(3)j2A4  
+Structural Query: +NM23 +"tumor progression" contribute +l(3)j2A4 
+Synonym: l(3)j2A4
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:DER12  
+Structural Query: +NM23 +"tumor progression" contribute +DER12 
+Synonym: DER12
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:ENT2  
+Structural Query: +NM23 +"tumor progression" contribute +ENT2 
+Synonym: ENT2
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:HNP36  
+Structural Query: +NM23 +"tumor progression" contribute +HNP36 
+Synonym: HNP36
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:UNQ717/PRO1380  
+Structural Query: +NM23 +"tumor progression" contribute +UNQ717/PRO1380 
+Synonym: UNQ717/PRO1380
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:ENT3  
+Structural Query: +NM23 +"tumor progression" contribute +ENT3 
+Synonym: ENT3
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:HCLAP  
+Structural Query: +NM23 +"tumor progression" contribute +HCLAP 
+Synonym: HCLAP
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:HJCD  
+Structural Query: +NM23 +"tumor progression" contribute +HJCD 
+Synonym: HJCD
+Gene Name:NM23  Disease:tumor progression Verb:contribute Gene Name:PHID  
+Structural Query: +NM23 +"tumor progression" contribute +PHID 
+Synonym: PHID
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:AWD  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +AWD 
+Synonym: AWD
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:GAAD  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +GAAD 
+Synonym: GAAD
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NB  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NB 
+Synonym: NB
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NBS  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NBS 
+Synonym: NBS
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDKA  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDKA 
+Synonym: NDKA
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPK-A  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPK-A 
+Synonym: NDPK-A
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPKA  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPKA 
+Synonym: NDPKA
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDKB  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDKB 
+Synonym: NDKB
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPK-B  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPK-B 
+Synonym: NDPK-B
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPKB  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPKB 
+Synonym: NDPKB
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NM23B  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NM23B 
+Synonym: NM23B
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:PUF  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +PUF 
+Synonym: PUF
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:RP23-378I13.1  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +RP23-378I13.1 
+Synonym: RP23-378I13.1
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:AL024257  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +AL024257 
+Synonym: AL024257
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NM23A  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NM23A 
+Synonym: NM23A
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:RP23-378I13.2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +RP23-378I13.2 
+Synonym: RP23-378I13.2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:MN23H7  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +MN23H7 
+Synonym: MN23H7
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:p18-12d  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +p18-12d 
+Synonym: p18-12d
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NM23H5  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NM23H5 
+Synonym: NM23H5
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:RSPH23  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +RSPH23 
+Synonym: RSPH23
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:D530024H21Rik  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +D530024H21Rik 
+Synonym: D530024H21Rik
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:1700019D05Rik  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +1700019D05Rik 
+Synonym: 1700019D05Rik
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:IPIA-ALPHA  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +IPIA-ALPHA 
+Synonym: IPIA-ALPHA
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDK 6  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +"NDK 6" 
+Synonym: NDK 6
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPK-C  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPK-C 
+Synonym: NDPK-C
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPKC  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPKC 
+Synonym: NDPKC
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NM23H3  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NM23H3 
+Synonym: NM23H3
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:c371H6.2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +c371H6.2 
+Synonym: c371H6.2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:1810009F08Rik  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +1810009F08Rik 
+Synonym: 1810009F08Rik
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:AI413736  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +AI413736 
+Synonym: AI413736
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:Ndk3  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +Ndk3 
+Synonym: Ndk3
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:Z97634.4-011  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +Z97634.4-011 
+Synonym: Z97634.4-011
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NDPK-D  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NDPK-D 
+Synonym: NDPK-D
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:NM23H4  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +NM23H4 
+Synonym: NM23H4
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:CILD6  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +CILD6 
+Synonym: CILD6
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:SPTRX2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +SPTRX2 
+Synonym: SPTRX2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:TXNDC3  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +TXNDC3 
+Synonym: TXNDC3
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:sptrx-2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +sptrx-2 
+Synonym: sptrx-2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:STS-1  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +STS-1 
+Synonym: STS-1
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:STS1  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +STS1 
+Synonym: STS1
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:TULA-2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +TULA-2 
+Synonym: TULA-2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:p70  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +p70 
+Synonym: p70
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:TXL-2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +TXL-2 
+Synonym: TXL-2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:TXL2  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +TXL2 
+Synonym: TXL2
+Gene Name:nucleoside diphosphate kinase  Disease:tumor progression Verb:contribute Gene Name:TXNDC6  
+Structural Query: +"nucleoside diphosphate kinase" +"tumor progression" contribute +TXNDC6 
+Synonym: TXNDC6
+Number of retireved Documents: 224
+
+Query: How does BARD1 regulate BRCA1 activity?
+Verb:regulate Gene Name:BARD1  Gene Name:BRCA1  
+Structural Query: regulate +BARD1 +BRCA1 
+
+Gene Name:BRCA1  Verb:regulate Gene Name:ENSMUSG00000060893  
+Structural Query: +BRCA1 regulate +ENSMUSG00000060893 
+Synonym: ENSMUSG00000060893
+Gene Name:BRCA1  Verb:regulate Gene Name:ENSMUSG00000073653  
+Structural Query: +BRCA1 regulate +ENSMUSG00000073653 
+Synonym: ENSMUSG00000073653
+Gene Name:BRCA1  Verb:regulate Gene Name:AT1G04020  
+Structural Query: +BRCA1 regulate +AT1G04020 
+Synonym: AT1G04020
+Gene Name:BRCA1  Verb:regulate Gene Name:ATBARD1  
+Structural Query: +BRCA1 regulate +ATBARD1 
+Synonym: ATBARD1
+Gene Name:BRCA1  Verb:regulate Gene Name:F21M11.4  
+Structural Query: +BRCA1 regulate +F21M11.4 
+Synonym: F21M11.4
+Gene Name:BRCA1  Verb:regulate Gene Name:F21M11_4  
+Structural Query: +BRCA1 regulate +F21M11_4 
+Synonym: F21M11_4
+Gene Name:BRCA1  Verb:regulate Gene Name:ROW1  
+Structural Query: +BRCA1 regulate +ROW1 
+Synonym: ROW1
+Gene Name:BRCA1  Verb:regulate Gene Name:breast cancer associated RING 1  
+Structural Query: +BRCA1 regulate +"breast cancer associated RING 1" 
+Synonym: breast cancer associated RING 1
+Gene Name:BRCA1  Verb:regulate Gene Name:RCJMB04_10g11  
+Structural Query: +BRCA1 regulate +RCJMB04_10g11 
+Synonym: RCJMB04_10g11
+Gene Name:BRCA1  Verb:regulate Gene Name:BOS_2072  
+Structural Query: +BRCA1 regulate +BOS_2072 
+Synonym: BOS_2072
+Gene Name:BRCA1  Verb:regulate Gene Name:si:ch211-207d8.3  
+Structural Query: +BRCA1 regulate +si:ch211-207d8.3 
+Synonym: si:ch211-207d8.3
+Gene Name:BRCA1  Verb:regulate Gene Name:wu:fi23a01  
+Structural Query: +BRCA1 regulate +wu:fi23a01 
+Synonym: wu:fi23a01
+Gene Name:BARD1  Verb:regulate Gene Name:BRCAI  
+Structural Query: +BARD1 regulate +BRCAI 
+Synonym: BRCAI
+Gene Name:BARD1  Verb:regulate Gene Name:BRCC1  
+Structural Query: +BARD1 regulate +BRCC1 
+Synonym: BRCC1
+Gene Name:BARD1  Verb:regulate Gene Name:BROVCA1  
+Structural Query: +BARD1 regulate +BROVCA1 
+Synonym: BROVCA1
+Gene Name:BARD1  Verb:regulate Gene Name:IRIS  
+Structural Query: +BARD1 regulate +IRIS 
+Synonym: IRIS
+Gene Name:BARD1  Verb:regulate Gene Name:PNCA4  
+Structural Query: +BARD1 regulate +PNCA4 
+Synonym: PNCA4
+Gene Name:BARD1  Verb:regulate Gene Name:PPP1R53  
+Structural Query: +BARD1 regulate +PPP1R53 
+Synonym: PPP1R53
+Gene Name:BARD1  Verb:regulate Gene Name:PSCP  
+Structural Query: +BARD1 regulate +PSCP 
+Synonym: PSCP
+Gene Name:BARD1  Verb:regulate Gene Name:RNF53  
+Structural Query: +BARD1 regulate +RNF53 
+Synonym: RNF53
+Gene Name:BARD1  Verb:regulate Gene Name:RP23-328K2.8  
+Structural Query: +BARD1 regulate +RP23-328K2.8 
+Synonym: RP23-328K2.8
+Gene Name:BARD1  Verb:regulate Gene Name:BOS_19075  
+Structural Query: +BARD1 regulate +BOS_19075 
+Synonym: BOS_19075
+Gene Name:BARD1  Verb:regulate Gene Name:AT4G21070  
+Structural Query: +BARD1 regulate +AT4G21070 
+Synonym: AT4G21070
+Gene Name:BARD1  Verb:regulate Gene Name:ARABIDOPSIS THALIANA BREAST CANCER SUSCEPTIBILITY1  
+Structural Query: +BARD1 regulate +"ARABIDOPSIS THALIANA BREAST CANCER SUSCEPTIBILITY1" 
+Synonym: ARABIDOPSIS THALIANA BREAST CANCER SUSCEPTIBILITY1
+Gene Name:BARD1  Verb:regulate Gene Name:ATBRCA1  
+Structural Query: +BARD1 regulate +ATBRCA1 
+Synonym: ATBRCA1
+Gene Name:BARD1  Verb:regulate Gene Name:breast cancer susceptibility1  
+Structural Query: +BARD1 regulate +"breast cancer susceptibility1" 
+Synonym: breast cancer susceptibility1
+Gene Name:BARD1  Verb:regulate Gene Name:TEgg011f05.1  
+Structural Query: +BARD1 regulate +TEgg011f05.1 
+Synonym: TEgg011f05.1
+Gene Name:BARD1  Verb:regulate Gene Name:brcai  
+Structural Query: +BARD1 regulate +brcai 
+Synonym: brcai
+Gene Name:BARD1  Verb:regulate Gene Name:brcc1  
+Structural Query: +BARD1 regulate +brcc1 
+Synonym: brcc1
+Gene Name:BARD1  Verb:regulate Gene Name:iris  
+Structural Query: +BARD1 regulate +iris 
+Synonym: iris
+Gene Name:BARD1  Verb:regulate Gene Name:pscp  
+Structural Query: +BARD1 regulate +pscp 
+Synonym: pscp
+Gene Name:BARD1  Verb:regulate Gene Name:rnf53  
+Structural Query: +BARD1 regulate +rnf53 
+Synonym: rnf53
+Number of retireved Documents: 68
+
+Query: How does APC (adenomatous polyposis coli) protein affect actin assembly
+Verb:affect Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Gene Name:APC (adenomatous polyposis coli) protein  Gene Name:actin  
+Structural Query: affect +APC +"adenomatous polyposis coli" +protein +"actin assembly" +"APC (adenomatous polyposis coli) protein" +actin 
+
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:AI047805  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +AI047805 
+Synonym: AI047805
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:AU020952  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +AU020952 
+Synonym: AU020952
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:AW124434  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +AW124434 
+Synonym: AW124434
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CC1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CC1 
+Synonym: CC1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Min  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Min 
+Synonym: Min
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:mAPC  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +mAPC 
+Synonym: mAPC
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:BTPS2  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +BTPS2 
+Synonym: BTPS2
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:DP2  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +DP2 
+Synonym: DP2
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:DP2.5  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +DP2.5 
+Synonym: DP2.5
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:DP3  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +DP3 
+Synonym: DP3
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:GS  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +GS 
+Synonym: GS
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:PPP1R46  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +PPP1R46 
+Synonym: PPP1R46
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG1451  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG1451 
+Synonym: Dmel_CG1451
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:APC1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +APC1 
+Synonym: APC1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Apc1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Apc1 
+Synonym: Apc1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG1451  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG1451 
+Synonym: CG1451
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:D-APC1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +D-APC1 
+Synonym: D-APC1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:DAPC  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +DAPC 
+Synonym: DAPC
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dm APC1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"Dm APC1" 
+Synonym: Dm APC1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG1451  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG1451 
+Synonym: Dmel\CG1451
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:apc1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +apc1 
+Synonym: apc1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dAPC  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dAPC 
+Synonym: dAPC
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dAPC1  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dAPC1 
+Synonym: dAPC1
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dApc  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dApc 
+Synonym: dApc
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:RATAPC  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +RATAPC 
+Synonym: RATAPC
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:cb965  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +cb965 
+Synonym: cb965
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:im:7150932  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +im:7150932 
+Synonym: im:7150932
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:im:7152872  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +im:7152872 
+Synonym: im:7152872
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:xapc  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +xapc 
+Synonym: xapc
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:BOS_10079  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +BOS_10079 
+Synonym: BOS_10079
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dp2  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dp2 
+Synonym: dp2
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dp2.5  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dp2.5 
+Synonym: dp2.5
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dp3  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dp3 
+Synonym: dp3
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:fap  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +fap 
+Synonym: fap
+Gene Name:actin  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:fpc  
+Structural Query: +actin +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +fpc 
+Synonym: fpc
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Ot16g00370  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Ot16g00370 
+Synonym: Ot16g00370
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:MICPUN_90942  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +MICPUN_90942 
+Synonym: MICPUN_90942
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG4027  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG4027 
+Synonym: Dmel_CG4027
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +A 
+Synonym: A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:ACT5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +ACT5C 
+Synonym: ACT5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Ac5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Ac5C 
+Synonym: Ac5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act 
+Synonym: Act
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act-5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act-5C 
+Synonym: Act-5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act5  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act5 
+Synonym: Act5
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act5c  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act5c 
+Synonym: Act5c
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Actin5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Actin5C 
+Synonym: Actin5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:BAP47  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +BAP47 
+Synonym: BAP47
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Bap47  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Bap47 
+Synonym: Bap47
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG4027  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG4027 
+Synonym: CG4027
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG4027  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG4027 
+Synonym: Dmel\CG4027
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:M32055  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +M32055 
+Synonym: M32055
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:T11  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +T11 
+Synonym: T11
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act 
+Synonym: act
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act 5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"act 5C" 
+Synonym: act 5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act5C 
+Synonym: act5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:actin5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +actin5C 
+Synonym: actin5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:anon-EST:fe2D2  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +anon-EST:fe2D2 
+Synonym: anon-EST:fe2D2
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:cyt5C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +cyt5C 
+Synonym: cyt5C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0009  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0009 
+Synonym: l(1)G0009
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0010  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0010 
+Synonym: l(1)G0010
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0025  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0025 
+Synonym: l(1)G0025
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0079  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0079 
+Synonym: l(1)G0079
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0117  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0117 
+Synonym: l(1)G0117
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0177  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0177 
+Synonym: l(1)G0177
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0245  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0245 
+Synonym: l(1)G0245
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0330  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0330 
+Synonym: l(1)G0330
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0420  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0420 
+Synonym: l(1)G0420
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:l(1)G0486  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +l(1)G0486 
+Synonym: l(1)G0486
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG5178  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG5178 
+Synonym: Dmel_CG5178
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act(88F)  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act(88F) 
+Synonym: Act(88F)
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act88-F  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act88-F 
+Synonym: Act88-F
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act88f  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act88f 
+Synonym: Act88f
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG5178  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG5178 
+Synonym: CG5178
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG5178  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG5178 
+Synonym: Dmel\CG5178
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:E  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +E 
+Synonym: E
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Ifm(3)7  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Ifm(3)7 
+Synonym: Ifm(3)7
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act 88F  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"act 88F" 
+Synonym: act 88F
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act88F  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act88F 
+Synonym: act88F
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:rsd  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +rsd 
+Synonym: rsd
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG12051  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG12051 
+Synonym: Dmel_CG12051
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:42A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +42A 
+Synonym: 42A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act42  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act42 
+Synonym: Act42
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act42a  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act42a 
+Synonym: Act42a
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:C  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +C 
+Synonym: C
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG12051  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG12051 
+Synonym: CG12051
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG12051  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG12051 
+Synonym: Dmel\CG12051
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act 42A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"act 42A" 
+Synonym: act 42A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act42A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act42A 
+Synonym: act42A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG10067  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG10067 
+Synonym: Dmel_CG10067
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act57A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act57A 
+Synonym: Act57A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act57b  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act57b 
+Synonym: Act57b
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:BEST:RE38067  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +BEST:RE38067 
+Synonym: BEST:RE38067
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG10067  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG10067 
+Synonym: CG10067
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG30294  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG30294 
+Synonym: CG30294
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG10067  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG10067 
+Synonym: Dmel\CG10067
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:M  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +M 
+Synonym: M
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:T10  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +T10 
+Synonym: T10
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act 57A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"act 57A" 
+Synonym: act 57A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act57A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act57A 
+Synonym: act57A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act57B  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act57B 
+Synonym: act57B
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act57b  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act57b 
+Synonym: act57b
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:anon-EST:CL2c12  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +anon-EST:CL2c12 
+Synonym: anon-EST:CL2c12
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG7478  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG7478 
+Synonym: Dmel_CG7478
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:143060_f_at  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +143060_f_at 
+Synonym: 143060_f_at
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG7478  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG7478 
+Synonym: CG7478
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:D  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +D 
+Synonym: D
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG7478  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG7478 
+Synonym: Dmel\CG7478
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act 79B  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"act 79B" 
+Synonym: act 79B
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act79B  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act79B 
+Synonym: act79B
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:mus79B  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +mus79B 
+Synonym: mus79B
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel_CG18290  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel_CG18290 
+Synonym: Dmel_CG18290
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act87e  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act87e 
+Synonym: Act87e
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CG18290  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CG18290 
+Synonym: CG18290
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dmel\CG18290  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dmel\CG18290 
+Synonym: Dmel\CG18290
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act 87E  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +"act 87E" 
+Synonym: act 87E
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act87E  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act87E 
+Synonym: act87E
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:mus87E  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +mus87E 
+Synonym: mus87E
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:AT3G46520  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +AT3G46520 
+Synonym: AT3G46520
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dsim_GD19025  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dsim_GD19025 
+Synonym: Dsim_GD19025
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Act88F  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Act88F 
+Synonym: Act88F
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dsim\GD19025  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dsim\GD19025 
+Synonym: Dsim\GD19025
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:GD19025  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +GD19025 
+Synonym: GD19025
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:dsim_GLEANR_2829  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +dsim_GLEANR_2829 
+Synonym: dsim_GLEANR_2829
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:GSVIVT00034893001  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +GSVIVT00034893001 
+Synonym: GSVIVT00034893001
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:act2  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +act2 
+Synonym: act2
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Clabp  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Clabp 
+Synonym: Clabp
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Lmb3  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Lmb3 
+Synonym: Lmb3
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:TACO  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +TACO 
+Synonym: TACO
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:p57  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +p57 
+Synonym: p57
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:XX-FW83128A1.1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +XX-FW83128A1.1 
+Synonym: XX-FW83128A1.1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:ABP-280  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +ABP-280 
+Synonym: ABP-280
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:ABPX  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +ABPX 
+Synonym: ABPX
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CVD1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CVD1 
+Synonym: CVD1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:FLN  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +FLN 
+Synonym: FLN
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:FLN-A  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +FLN-A 
+Synonym: FLN-A
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:FLN1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +FLN1 
+Synonym: FLN1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:FMD  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +FMD 
+Synonym: FMD
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:MNS  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +MNS 
+Synonym: MNS
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:NHBP  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +NHBP 
+Synonym: NHBP
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:OPD  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +OPD 
+Synonym: OPD
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:OPD1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +OPD1 
+Synonym: OPD1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:OPD2  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +OPD2 
+Synonym: OPD2
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:XLVD  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +XLVD 
+Synonym: XLVD
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:XMVD  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +XMVD 
+Synonym: XMVD
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:RP23-436K3.1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +RP23-436K3.1 
+Synonym: RP23-436K3.1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Dilp2  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Dilp2 
+Synonym: Dilp2
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:F730004A14Rik  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +F730004A14Rik 
+Synonym: F730004A14Rik
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:Fln1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +Fln1 
+Synonym: Fln1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:filamin-1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +filamin-1 
+Synonym: filamin-1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:FAN1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +FAN1 
+Synonym: FAN1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:HSN  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +HSN 
+Synonym: HSN
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:SNL  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +SNL 
+Synonym: SNL
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:p55  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +p55 
+Synonym: p55
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:RP11-477J21.1  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +RP11-477J21.1 
+Synonym: RP11-477J21.1
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:ADF  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +ADF 
+Synonym: ADF
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:AGEL  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +AGEL 
+Synonym: AGEL
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:RP23-284C20.3  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +RP23-284C20.3 
+Synonym: RP23-284C20.3
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:je  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +je 
+Synonym: je
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:RP23-186B18.2  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +RP23-186B18.2 
+Synonym: RP23-186B18.2
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:ACTC  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +ACTC 
+Synonym: ACTC
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:ASD5  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +ASD5 
+Synonym: ASD5
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CMD1R  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CMD1R 
+Synonym: CMD1R
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:CMH11  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +CMH11 
+Synonym: CMH11
+Gene Name:APC (adenomatous polyposis coli) protein  Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Verb:affect Gene Name:LVNC4  
+Structural Query: +"APC (adenomatous polyposis coli) protein" +APC +"adenomatous polyposis coli" +protein +"actin assembly" affect +LVNC4 
+Synonym: LVNC4
+Verb:affect Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Gene Name:APC (adenomatous polyposis coli) protein  Gene Name:actin  
+Structural Query: affect APC "adenomatous polyposis coli" protein "actin assembly" +"APC (adenomatous polyposis coli) protein" +actin 
+Verb:affect Disease:APC Disease:adenomatous polyposis coli Disease:protein Disease:actin assembly Gene Name:APC (adenomatous polyposis coli) protein  Gene Name:actin  
+Structural Query: affect APC "adenomatous polyposis coli" protein "actin assembly" "APC (adenomatous polyposis coli) protein" actin 
+Number of retireved Documents: 29
+

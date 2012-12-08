@@ -250,7 +250,20 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
       e.printStackTrace();
       System.err.println("Error retrieving documents from Solr: " + e);
     }
-    return result;
+    
+    Set<RetrievalResult> s = new TreeSet<RetrievalResult>(new Comparator<RetrievalResult>(){
+    	public int compare(RetrievalResult o1, RetrievalResult o2) {
+            return o1.getDocID().compareTo(o2.getDocID());
+        }
+    });
+    System.out.println("Result size: " + result.size() +"   " +  result);
+    s.addAll(result);
+    System.out.println("Add all over");
+    List<RetrievalResult> res = new ArrayList<RetrievalResult>(s); 
+
+    
+    System.out.println("Res size: " + res.size() +"   " +  res);
+    return res;
   }
 
   @Override
