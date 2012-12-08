@@ -2,12 +2,15 @@ package edu.cmu.lti.oaqa.openqa.test.team06.keyterm;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
@@ -95,7 +98,21 @@ public class VgangKeytermExtractor extends AbstractKeytermExtractor {
       // TODO Auto-generated catch block
       e.printStackTrace();
     }
-  //  System.out.println(keyterms);
+   // System.out.println(keyterms);
+    
+    FileWriter fstream = null;
+	try {
+		fstream = new FileWriter("VgangTerm.txt",true);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+    BufferedWriter out = new BufferedWriter(fstream);
+    PrintWriter pw = new PrintWriter(out,false);
+    pw.println(keyterms);
+    pw.close();        
+    
+    
      return keyterms;
    // return null;
   }

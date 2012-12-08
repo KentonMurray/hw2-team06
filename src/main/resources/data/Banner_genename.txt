@@ -1,0 +1,129 @@
+Query: What is the role of PrnP in mad cow disease?
+Gene Name:PrnP  Disease:mad cow disease 
+Structural Query: +PrnP +"mad cow disease" 
+
+Disease:mad cow disease Gene Name:RP5-1068H6.2  
+Structural Query: +"mad cow disease" +RP5-1068H6.2 
+Synonym: RP5-1068H6.2
+Disease:mad cow disease Gene Name:ASCR  
+Structural Query: +"mad cow disease" +ASCR 
+Synonym: ASCR
+Disease:mad cow disease Gene Name:AltPrP  
+Structural Query: +"mad cow disease" +AltPrP 
+Synonym: AltPrP
+Disease:mad cow disease Gene Name:CD230  
+Structural Query: +"mad cow disease" +CD230 
+Synonym: CD230
+Disease:mad cow disease Gene Name:CJD  
+Structural Query: +"mad cow disease" +CJD 
+Synonym: CJD
+Disease:mad cow disease Gene Name:GSS  
+Structural Query: +"mad cow disease" +GSS 
+Synonym: GSS
+Disease:mad cow disease Gene Name:KURU  
+Structural Query: +"mad cow disease" +KURU 
+Synonym: KURU
+Disease:mad cow disease Gene Name:PRIP  
+Structural Query: +"mad cow disease" +PRIP 
+Synonym: PRIP
+Disease:mad cow disease Gene Name:PrP  
+Structural Query: +"mad cow disease" +PrP 
+Synonym: PrP
+Disease:mad cow disease Gene Name:PrP27-30  
+Structural Query: +"mad cow disease" +PrP27-30 
+Synonym: PrP27-30
+Disease:mad cow disease Gene Name:PrP33-35C  
+Structural Query: +"mad cow disease" +PrP33-35C 
+Synonym: PrP33-35C
+Disease:mad cow disease Gene Name:PrPc  
+Structural Query: +"mad cow disease" +PrPc 
+Synonym: PrPc
+Disease:mad cow disease Gene Name:p27-30  
+Structural Query: +"mad cow disease" +p27-30 
+Synonym: p27-30
+Disease:mad cow disease Gene Name:RP23-401J24.1  
+Structural Query: +"mad cow disease" +RP23-401J24.1 
+Synonym: RP23-401J24.1
+Disease:mad cow disease Gene Name:AA960666  
+Structural Query: +"mad cow disease" +AA960666 
+Synonym: AA960666
+Disease:mad cow disease Gene Name:AI325101  
+Structural Query: +"mad cow disease" +AI325101 
+Synonym: AI325101
+Disease:mad cow disease Gene Name:PrP&lt;C&gt;  
+Structural Query: +"mad cow disease" +PrP&lt;C&gt; 
+Synonym: PrP&lt;C&gt;
+Disease:mad cow disease Gene Name:PrPC  
+Structural Query: +"mad cow disease" +PrPC 
+Synonym: PrPC
+Disease:mad cow disease Gene Name:PrPSc  
+Structural Query: +"mad cow disease" +PrPSc 
+Synonym: PrPSc
+Disease:mad cow disease Gene Name:Prn-i  
+Structural Query: +"mad cow disease" +Prn-i 
+Synonym: Prn-i
+Disease:mad cow disease Gene Name:Prn-p  
+Structural Query: +"mad cow disease" +Prn-p 
+Synonym: Prn-p
+Disease:mad cow disease Gene Name:Sinc  
+Structural Query: +"mad cow disease" +Sinc 
+Synonym: Sinc
+Disease:mad cow disease Gene Name:prP27-30  
+Structural Query: +"mad cow disease" +prP27-30 
+Synonym: prP27-30
+Disease:mad cow disease Gene Name:prP33-35C  
+Structural Query: +"mad cow disease" +prP33-35C 
+Synonym: prP33-35C
+Disease:mad cow disease Gene Name:PRPC  
+Structural Query: +"mad cow disease" +PRPC 
+Synonym: PRPC
+Disease:mad cow disease Gene Name:Prp  
+Structural Query: +"mad cow disease" +Prp 
+Synonym: Prp
+Disease:mad cow disease Gene Name:SIP  
+Structural Query: +"mad cow disease" +SIP 
+Synonym: SIP
+Disease:mad cow disease Gene Name:BOS_13027  
+Structural Query: +"mad cow disease" +BOS_13027 
+Synonym: BOS_13027
+Disease:mad cow disease Gene Name:Prn  
+Structural Query: +"mad cow disease" +Prn 
+Synonym: Prn
+Disease:mad cow disease Gene Name:CH211-233B23.1  
+Structural Query: +"mad cow disease" +CH211-233B23.1 
+Synonym: CH211-233B23.1
+Disease:mad cow disease Gene Name:PrP rel-2  
+Structural Query: +"mad cow disease" +"PrP rel-2" 
+Synonym: PrP rel-2
+Disease:mad cow disease Gene Name:PrP-2  
+Structural Query: +"mad cow disease" +PrP-2 
+Synonym: PrP-2
+Disease:mad cow disease Gene Name:PrP-like  
+Structural Query: +"mad cow disease" +PrP-like 
+Synonym: PrP-like
+Disease:mad cow disease Gene Name:PrP3  
+Structural Query: +"mad cow disease" +PrP3 
+Synonym: PrP3
+Disease:mad cow disease Gene Name:PrPL-P1-like  
+Structural Query: +"mad cow disease" +PrPL-P1-like 
+Synonym: PrPL-P1-like
+Disease:mad cow disease Gene Name:prp  
+Structural Query: +"mad cow disease" +prp 
+Synonym: prp
+Disease:mad cow disease Gene Name:EGK_02633  
+Structural Query: +"mad cow disease" +EGK_02633 
+Synonym: EGK_02633
+Disease:mad cow disease Gene Name:PRP  
+Structural Query: +"mad cow disease" +PRP 
+Synonym: PRP
+Disease:mad cow disease Gene Name:cjd  
+Structural Query: +"mad cow disease" +cjd 
+Synonym: cjd
+Disease:mad cow disease Gene Name:prion  
+Structural Query: +"mad cow disease" +prion 
+Synonym: prion
+Disease:mad cow disease Gene Name:prp(c)  
+Structural Query: +"mad cow disease" +prp(c) 
+Synonym: prp(c)
+Number of retireved Documents: 111
+
