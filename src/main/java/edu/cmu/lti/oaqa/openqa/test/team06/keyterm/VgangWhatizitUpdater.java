@@ -34,11 +34,11 @@ public class VgangWhatizitUpdater extends AbstractKeytermExtractor{
       }
     }
     
-   return null;
+   return returnedTerms;//null;
   }
 
-  public static void main(String[] args) {
-    VgangWhatizitUpdater vg = new VgangWhatizitUpdater();
-  vg.getKeyterms("How does APC (adenomatous polyposis coli) protein affect actin assembly");
-}
+//  public static void main(String[] args) {
+//    VgangWhatizitUpdater vg = new VgangWhatizitUpdater();
+//  vg.getKeyterms("How does APC (adenomatous polyposis coli) protein affect actin assembly");
+//}
 }

@@ -166,7 +166,7 @@ public class HttpClient {
                System.out.println("protein: "+ t1);
                
                Keyterm Vterm = new Keyterm(t1);//.originalText());
-               Vterm.setProbablity((float)0.2);
+               Vterm.setProbablity((float)0.8);
                returnedKeyterms.add(Vterm);
               }
             } 
@@ -181,7 +181,7 @@ public class HttpClient {
              System.out.println("disease: " + s1);
              
              Keyterm Dterm = new Keyterm(s1);
-             Dterm.setProbablity((float)0.8);
+             Dterm.setProbablity((float)0.5);
              returnedKeyterms.add(Dterm);
              }
            } 
