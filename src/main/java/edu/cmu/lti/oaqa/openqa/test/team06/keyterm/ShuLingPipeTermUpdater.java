@@ -4,7 +4,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.PrintWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +15,7 @@ import com.aliasi.chunk.Chunk;
 import com.aliasi.chunk.Chunker;
 import com.aliasi.chunk.Chunking;
 import com.aliasi.util.AbstractExternalizable;
+import com.aliasi.util.Streams;
 
 import edu.cmu.lti.oaqa.cse.basephase.keyterm.AbstractKeytermUpdater;
 import edu.cmu.lti.oaqa.framework.data.Keyterm;
@@ -21,12 +25,28 @@ public class ShuLingPipeTermUpdater extends AbstractKeytermUpdater{
   @Override
   protected List<Keyterm> updateKeyterms(String question, List<Keyterm> keyterms) {
     // TODO Auto-generated method stub
-    File modelFile = new File("./ne-en-bio-genetag.HmmChunker");
+		URL modelUrl = null;
+		try {
+			modelUrl = new URL("file:./ne-en-bio-genetag.HmmChunker");
+		} catch (MalformedURLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		ObjectInputStream ois = null;
+		try {
+			ois = new ObjectInputStream(modelUrl.openStream());
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+    //File modelFile = new File("./ne-en-bio-genetag.HmmChunker");
     Chunker chunker = null;
     Chunking chunking;
     Chunk[] Chunkarray;
     try {
-      chunker = (Chunker) AbstractExternalizable.readObject(modelFile);
+      //chunker = (Chunker) AbstractExternalizable.readObject(modelFile);
+    	chunker = (Chunker) ois.readObject();
     } catch (ClassNotFoundException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
@@ -55,7 +75,7 @@ public class ShuLingPipeTermUpdater extends AbstractKeytermUpdater{
     for(int i = 0 ; i < keyterms.size(); i++){
     	System.out.println(keyterms.get(i).getText() + " Prob: " + keyterms.get(i).getProbability());
     }
-    
+    Streams.closeQuietly(ois);
     return keyterms;
   }
   public Keyterm ContainsTerm(List <Keyterm> keyList, String str){

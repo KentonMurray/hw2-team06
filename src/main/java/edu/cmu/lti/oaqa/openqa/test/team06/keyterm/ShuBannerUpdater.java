@@ -7,7 +7,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.PrintWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -34,6 +37,23 @@ public class ShuBannerUpdater extends AbstractKeytermUpdater{
     // TODO Auto-generated method stub
     BannerProperties properties = BannerProperties.load("./banner.properties");
     File modelFile = new File("gene_model_v02.bin");
+/*    
+	URL modelUrl = null;
+	try {
+		modelUrl = new URL("file:./gene_model_v02.bin");
+	} catch (MalformedURLException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	}
+	ObjectInputStream ois = null;
+	try {
+		ois = new ObjectInputStream(modelUrl.openStream());
+	} catch (IOException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	}    
+  */  
+    
     BufferedReader mentionTestFile =null;
     try {
       mentionTestFile = new BufferedReader(new FileReader("./bc2geneMention/train/GENE.eval"));
@@ -64,6 +84,7 @@ public class ShuBannerUpdater extends AbstractKeytermUpdater{
     CRFTagger tagger=null;
     try {
       tagger = CRFTagger.load(modelFile, properties.getLemmatiser(), properties.getPosTagger(), properties.getPreTagger());
+      //tagger = CRFTagger.load(modelFile, properties.getLemmatiser(), properties.getPosTagger(), properties.getPreTagger());
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();

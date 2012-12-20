@@ -25,13 +25,13 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
 
   protected SolrWrapper wrapper;
 
-  public BufferedWriter output;
+  //public BufferedWriter output;
   @Override
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     super.initialize(aContext);
     try {
-      File f = new File("./data/Banner_genename.txt");
-      output = new BufferedWriter(new FileWriter(f));
+//      File f = new File("./data/Banner_genename.txt");      
+//      output = new BufferedWriter(new FileWriter(f));
       this.hitListSize = (Integer) aContext.getConfigParameterValue("hit-list-size");
     } catch (Exception e) { // all cross-opts are strings?
       this.hitListSize = Integer.parseInt((String) aContext
@@ -51,14 +51,14 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
   @Override
   protected final List<RetrievalResult> retrieveDocuments(String questionText,
           List<Keyterm> keyterms){
-    try{
+/*    try{
       output.write("Query: " + questionText);
       output.write("\n");
       output.flush();
     }catch(Exception e){
       System.err.println(e.getMessage());
     }
-    System.out.println("keyterms: ");
+*/    System.out.println("keyterms: ");
     for(Keyterm kt: keyterms){
       System.out.println(kt.toString());
     }
@@ -78,59 +78,59 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
     if(index == 1){
       for (Keyterm keyterm : keyterms) {
           if(keyterm.getProbability() < 0.5){
-            output.write("Verb:" + keyterm.getText() + " ");
+            //output.write("Verb:" + keyterm.getText() + " ");
             if(keyterm.getText().indexOf(" ") == -1)key_part.append("" + keyterm.getText() + " ");
             else key_part.append("\"" + keyterm.getText() + "\" ");
           }else if(keyterm.getProbability() < 0.8){
-            output.write("Disease:" + keyterm.getText() + " ");
+            //output.write("Disease:" + keyterm.getText() + " ");
             if(keyterm.getText().indexOf(" ") == -1)key_part.append("+" + keyterm.getText() + " ");
             else key_part.append("+\"" + keyterm.getText() + "\" ");
           }else{  
-            output.write("Gene Name:" + keyterm.getText() + "  ");
+            //output.write("Gene Name:" + keyterm.getText() + "  ");
             if(keyterm.getText().indexOf(" ") == -1)key_part.append("+" + keyterm.getText() + " ");
             else key_part.append("+\"" + keyterm.getText() + "\" ");
           }
-          output.flush();
+          //output.flush();
         }
     }else if(index == 2){
       for (Keyterm keyterm : keyterms) {
         if(keyterm.getProbability() < 0.5){
-          output.write("Verb:" + keyterm.getText() + " ");
+          //output.write("Verb:" + keyterm.getText() + " ");
           if(keyterm.getText().indexOf(" ") == -1)key_part.append("" + keyterm.getText() + " ");
           else key_part.append("\"" + keyterm.getText() + "\" ");
         }else if(keyterm.getProbability() < 0.8){
-          output.write("Disease:" + keyterm.getText() + " ");
+          //output.write("Disease:" + keyterm.getText() + " ");
           if(keyterm.getText().indexOf(" ") == -1)key_part.append("" + keyterm.getText() + " ");
           else key_part.append("\"" + keyterm.getText() + "\" ");
         }else{  
-          output.write("Gene Name:" + keyterm.getText() + "  ");
+          //output.write("Gene Name:" + keyterm.getText() + "  ");
           if(keyterm.getText().indexOf(" ") == -1)key_part.append("+" + keyterm.getText() + " ");
           else key_part.append("+\"" + keyterm.getText() + "\" ");
         }
-        output.flush();
+        //output.flush();
       }
     }else{
       for (Keyterm keyterm : keyterms) {
         if(keyterm.getProbability() < 0.5){
-          output.write("Verb:" + keyterm.getText() + " ");
+          //output.write("Verb:" + keyterm.getText() + " ");
           if(keyterm.getText().indexOf(" ") == -1)key_part.append("" + keyterm.getText() + " ");
           else key_part.append("\"" + keyterm.getText() + "\" ");
         }else if(keyterm.getProbability() < 0.8){
-          output.write("Disease:" + keyterm.getText() + " ");
+          //output.write("Disease:" + keyterm.getText() + " ");
           if(keyterm.getText().indexOf(" ") == -1)key_part.append("" + keyterm.getText() + " ");
           else key_part.append("\"" + keyterm.getText() + "\" ");
         }else{  
-          output.write("Gene Name:" + keyterm.getText() + "  ");
+          //output.write("Gene Name:" + keyterm.getText() + "  ");
           if(keyterm.getText().indexOf(" ") == -1)key_part.append("" + keyterm.getText() + " ");
           else key_part.append("\"" + keyterm.getText() + "\" ");
         }
-        output.flush();
+        //output.flush();
       }
     }
     
-    output.write("\n");
+    //output.write("\n");
     String query = key_part.toString();
-    output.write("Structural Query: " + query + "\n");
+    //output.write("Structural Query: " + query + "\n");
     return query;
   }
 
@@ -162,8 +162,8 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
     try {
       SolrDocumentList docs = wrapper.runQuery(query, 150);
       //output.write("Number of retireved Documents: " + docs.size());
-      output.write("\n");
-      output.flush();
+      //output.write("\n");
+      //output.flush();
       
       //
       if(docs.size() < 99){
@@ -212,9 +212,9 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
             keyterm_alias.add(geneAlias);
             temp_query = formulateQuery(keyterm_alias, 1);
             System.out.println("Original Temp query: " + temp_query);
-            if(temp_query.indexOf("<") != -1)continue;
-            output.write("Synonym: " + alias[j] + "\n");
-            output.flush();
+            //if(temp_query.indexOf("<") != -1)continue;fi
+            //output.write("Synonym: " + alias[j] + "\n");
+            //output.flush();
             temp_query = temp_query.replaceAll(":", "\\\\:");
             System.out.println("Temp query: " + temp_query);
             temp_docs = wrapper.runQuery(temp_query,  50);
@@ -236,9 +236,9 @@ public class YiwenChenRetrieval extends AbstractRetrievalStrategist {
       }
       //
       
-      output.write("Number of retireved Documents: " + docs.size() + "\n");
-      output.write("\n");
-      output.flush();
+      //output.write("Number of retireved Documents: " + docs.size() + "\n");
+      //output.write("\n");
+      //output.flush();
       System.out.println("Doc size: " + docs.size());
       for (SolrDocument doc : docs) {
         RetrievalResult r = new RetrievalResult((String) doc.getFieldValue("id"),

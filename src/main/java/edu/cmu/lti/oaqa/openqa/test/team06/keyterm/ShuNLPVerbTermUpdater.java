@@ -51,6 +51,7 @@ public class ShuNLPVerbTermUpdater extends AbstractKeytermUpdater {
 				}
 			}
 		}
+/*		
 		    FileWriter fstream = null;
 		try {
 			fstream = new FileWriter("LastUpdater.txt",true);
@@ -62,7 +63,7 @@ public class ShuNLPVerbTermUpdater extends AbstractKeytermUpdater {
 	    PrintWriter pw = new PrintWriter(out,false);
 	    pw.println(keyterms);
 	    pw.close();
-	
+*/	
 		
 		return keyterms;
 	}
