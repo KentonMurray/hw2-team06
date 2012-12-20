@@ -43,10 +43,10 @@ pipeline:
     name: keyterm-updater1
     options: |
         - inherit: hellobioqa.team06.keyterm.ShuLingPipeTermUpdater
-  - inherit: jdbc.sqlite.cse.phase
-    name: keyterm-updater2
-    options: |        
-        - inherit: hellobioqa.team06.keyterm.ShuBannerUpdater
+  #- inherit: jdbc.sqlite.cse.phase
+  #  name: keyterm-updater2
+  #  options: |        
+  #      - inherit: hellobioqa.team06.keyterm.ShuBannerUpdater
   - inherit: jdbc.sqlite.cse.phase
     name: keyterm-updater3
     options: |          
@@ -82,4 +82,3 @@ post-process:
   - inherit: report.csv-report-generator
     builders: |
       - inherit: helloqa.report.map-report-component
-  
