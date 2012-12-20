@@ -32,11 +32,11 @@ public class ShuBannerExtractor extends AbstractKeytermExtractor{
   @Override
   protected List<Keyterm> getKeyterms(String question){
     // TODO Auto-generated method stub
-    BannerProperties properties = BannerProperties.load("./banner.properties");
-    File modelFile = new File("gene_model_v02.bin");
+    BannerProperties properties = BannerProperties.load("/usr4/ziy/tmp/hw2-eval/team06/banner.properties");
+    File modelFile = new File("/usr4/ziy/tmp/hw2-eval/gene_model_v02.bin");
     BufferedReader mentionTestFile =null;
     try {
-      mentionTestFile = new BufferedReader(new FileReader("./bc2geneMention/train/GENE.eval"));
+      mentionTestFile = new BufferedReader(new FileReader("/usr4/ziy/tmp/hw2-eval/team06GENE.eval"));//./bc2geneMention/train/GENE.eval"));
     } catch (FileNotFoundException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
